@@ -31,7 +31,7 @@ hermit_menu = [
 ]
 
 hermit_social = [
-    { name = "twitter_x", link = "https://x.com" },
+    { name = "twitter_x", link = "https://x.com/tolga_plato" },
     { name = "github", link = "https://github.com/ph4ge" },
     { name = "linkedin", link = "https://www.linkedin.com/in/tolga-topal-tot/" },
     { name = "email", link = "mailto:info@tolgatopal.mozmail.com" }
