@@ -4,5 +4,5 @@ title="About"
 
 
 Hi !
-I am Tolga Topal. I work in the fields of artificial intelligence.
+I am Tolga Topal. I work in the field of artificial intelligence.
 
