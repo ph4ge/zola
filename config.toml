@@ -35,6 +35,7 @@ hermit_social = [
     { name = "email", link = "mailto:info@tolgatopal.mozmail.com" },
     { name = "linkedin", link = "https://www.linkedin.com/in/tolga-topal-tot/" },
     { name = "github", link = "https://github.com/ph4ge" },
+    { name = "orcid", link = "https://orcid.org/0000-0002-7764-706X" },
     { name = "twitter_x", link = "https://x.com/tolga_plato" }
 ]
 
