@@ -95,4 +95,8 @@ title="Certifications"
 | AI for Energy and Biomedical Applications                    |                         Coursera                          | coursera.org/verify/ACUM406LK1J7                             |
 | AI for Design and Optimization                               |                         Coursera                          | coursera.org/verify/I41DRZX5T7LT                             |
 | AI for Autonomous Vehicles and Robotics                      |                         Coursera                          | coursera.org/verify/C03DJRITJGWR                             |
+| Explainable Machine Learning (XAI)                           |                         Coursera                          | coursera.org/verify/DSYYK55NLHAQ                             |
+| Developing Explainable AI (XAI)                              |                         Coursera                          | coursera.org/verify/PF1BV1QN9FT0                             |
+| Interpretable Machine Learning                               |                         Coursera                          | coursera.org/verify/9229F1HJX6G1                             |
+| Explainable AI (XAI)                                         |                         Coursera                          | coursera.org/verify/specialization/2647RCM1JV05              |
 
