@@ -99,4 +99,5 @@ title="Certifications"
 | Developing Explainable AI (XAI)                              |                         Coursera                          | coursera.org/verify/PF1BV1QN9FT0                             |
 | Interpretable Machine Learning                               |                         Coursera                          | coursera.org/verify/9229F1HJX6G1                             |
 | Explainable AI (XAI)                                         |                         Coursera                          | coursera.org/verify/specialization/2647RCM1JV05              |
+| Computational Neuroscience                                   |                         Coursera                          | coursera.org/verify/UH58WVB65NQX                             |
 
