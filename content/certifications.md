@@ -90,7 +90,7 @@ title="Certifications"
 | Build a Static Website with Rust and Zola                    |                         Coursera                          | coursera.org/verify/NGO1X5A2XKPJ                             |
 | Artificial Intelligence: An Overview                         |                         Coursera                          | coursera.org/verify/Z3Q6R65USW23                             |
 | Artificial Intelligence and legal issues                     |                         Coursera                          | coursera.org/verify/ILO9W6DTCYA6                             |
-| Advanced Neural Network Techniques                           |                         Coursera                          | coursera.org/account/accomplishments/verify/W0J2ZU4I6PSM     |
+| Advanced Neural Network Techniques                           |                         Coursera                          | coursera.org/verify/W0J2ZU4I6PSM                             |
 | AI for Mechanical Engineers                                  |                         Coursera                          | coursera.org/verify/specialization/46FGXLRF15LG              |
 | AI for Energy and Biomedical Applications                    |                         Coursera                          | coursera.org/verify/ACUM406LK1J7                             |
 | AI for Design and Optimization                               |                         Coursera                          | coursera.org/verify/I41DRZX5T7LT                             |
