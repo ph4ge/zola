@@ -100,4 +100,6 @@ title="Certifications"
 | Interpretable Machine Learning                               |                         Coursera                          | coursera.org/verify/9229F1HJX6G1                             |
 | Explainable AI (XAI)                                         |                         Coursera                          | coursera.org/verify/specialization/2647RCM1JV05              |
 | Computational Neuroscience                                   |                         Coursera                          | coursera.org/verify/UH58WVB65NQX                             |
+| Developing AI Policy                                         |                         Coursera                          | coursera.org/verify/RQ5TKRMT9RTI                             |
+| Basic Pytorch Tensor Manipulation for Machine Learning       |                         educative.io                      | educative.io/verify-certificate/g78zQW5O1q9swWWNrmkpQmcywB77zwWL3Tk|
 
