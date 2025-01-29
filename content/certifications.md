@@ -103,4 +103,5 @@ title="Certifications"
 | Developing AI Policy                                         |                         Coursera                          | coursera.org/verify/RQ5TKRMT9RTI                             |
 | Basic Pytorch Tensor Manipulation for Machine Learning       |                         educative.io                      | educative.io/verify-certificate/g78zQW5O1q9swWWNrmkpQmcywB77zwWL3Tk|
 | Deep Learning - Recurrent Neural Networks with TensorFlow    |                         Coursera                          | coursera.org/verify/KVNHZGNUJZPW                             |
+| Introduction to RNN and DNN                                  |                         Coursera                          | coursera.org/verify/B4PTVLKFHR7Y                             |
 
