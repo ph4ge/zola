@@ -102,4 +102,5 @@ title="Certifications"
 | Computational Neuroscience                                   |                         Coursera                          | coursera.org/verify/UH58WVB65NQX                             |
 | Developing AI Policy                                         |                         Coursera                          | coursera.org/verify/RQ5TKRMT9RTI                             |
 | Basic Pytorch Tensor Manipulation for Machine Learning       |                         educative.io                      | educative.io/verify-certificate/g78zQW5O1q9swWWNrmkpQmcywB77zwWL3Tk|
+| Deep Learning - Recurrent Neural Networks with TensorFlow    |                         Coursera                          | coursera.org/verify/KVNHZGNUJZPW                             |
 
