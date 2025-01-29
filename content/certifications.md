@@ -87,7 +87,7 @@ title="Certifications"
 | Practical Methodology and Ethics in AI                       |                         Coursera                          | coursera.org/verify/TFXB4Q2MQ8GA                             |
 | Machine Learning: an overview                                |                         Coursera                          | coursera.org/verify/UKF9A25DHUK8                             |
 | Ethics of Artificial Intelligence                            |                         Coursera                          | coursera.org/verify/UK65UAIS6A99                             |
-| Build a Static Website with Rust and Zola                    |                         Coursera                          | coursera.org/verify/NGO1X5A2XKPJ                             |
+| Build a Static Website with Rust and Zola                    |                         Coursera Project                  | coursera.org/verify/NGO1X5A2XKPJ                             |
 | Artificial Intelligence: An Overview                         |                         Coursera                          | coursera.org/verify/Z3Q6R65USW23                             |
 | Artificial Intelligence and legal issues                     |                         Coursera                          | coursera.org/verify/ILO9W6DTCYA6                             |
 | Advanced Neural Network Techniques                           |                         Coursera                          | coursera.org/verify/W0J2ZU4I6PSM                             |
@@ -104,4 +104,5 @@ title="Certifications"
 | Basic Pytorch Tensor Manipulation for Machine Learning       |                         educative.io                      | educative.io/verify-certificate/g78zQW5O1q9swWWNrmkpQmcywB77zwWL3Tk|
 | Deep Learning - Recurrent Neural Networks with TensorFlow    |                         Coursera                          | coursera.org/verify/KVNHZGNUJZPW                             |
 | Introduction to RNN and DNN                                  |                         Coursera                          | coursera.org/verify/B4PTVLKFHR7Y                             |
+| Principal Component Analysis with NumPy                      |                         Coursera Project                  | coursera.org/verify/OUPYT6MIE8VQ                             |
 
