@@ -106,4 +106,6 @@ title="Certifications"
 | Introduction to RNN and DNN                                  |                         Coursera                          | coursera.org/verify/B4PTVLKFHR7Y                             |
 | Principal Component Analysis with NumPy                      |                         Coursera Project                  | coursera.org/verify/OUPYT6MIE8VQ                             |
 | Fundamental Neuroscience for Neuroimaging                    |                         Coursera                          | coursera.org/verify/WT8X8YOULSSC                             |
+| Deep Learning Frameworks and Neural Networks Simplified      |                         Coursera                          | coursera.org/verify/KI7479SC91AU                             |
+| AI & Deep Learning Concepts and Applications                 |                         Coursera                          | coursera.org/verify/EYG92RH2XG3G                             |
 
