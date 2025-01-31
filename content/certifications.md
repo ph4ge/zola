@@ -105,4 +105,5 @@ title="Certifications"
 | Deep Learning - Recurrent Neural Networks with TensorFlow    |                         Coursera                          | coursera.org/verify/KVNHZGNUJZPW                             |
 | Introduction to RNN and DNN                                  |                         Coursera                          | coursera.org/verify/B4PTVLKFHR7Y                             |
 | Principal Component Analysis with NumPy                      |                         Coursera Project                  | coursera.org/verify/OUPYT6MIE8VQ                             |
+| Fundamental Neuroscience for Neuroimaging                    |                         Coursera                          | coursera.org/verify/WT8X8YOULSSC                             |
 
