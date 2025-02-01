@@ -108,4 +108,6 @@ title="Certifications"
 | Fundamental Neuroscience for Neuroimaging                    |                         Coursera                          | coursera.org/verify/WT8X8YOULSSC                             |
 | Deep Learning Frameworks and Neural Networks Simplified      |                         Coursera                          | coursera.org/verify/KI7479SC91AU                             |
 | AI & Deep Learning Concepts and Applications                 |                         Coursera                          | coursera.org/verify/EYG92RH2XG3G                             |
+| Encoder-Decoder Architecture                                 |                         Coursera                          | coursera.org/verify/1T7DMR1S3JT9                             |
+| Transformer Models and BERT Model                            |                         Coursera                          | coursera.org/verify/WJ4CCYVPWITN                             |
 
