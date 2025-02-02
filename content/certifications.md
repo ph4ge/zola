@@ -110,4 +110,5 @@ title="Certifications"
 | AI & Deep Learning Concepts and Applications                 |                         Coursera                          | coursera.org/verify/EYG92RH2XG3G                             |
 | Encoder-Decoder Architecture                                 |                         Coursera                          | coursera.org/verify/1T7DMR1S3JT9                             |
 | Transformer Models and BERT Model                            |                         Coursera                          | coursera.org/verify/WJ4CCYVPWITN                             |
+| Interpretable Machine Learning Applications: Part 2          |                         Coursera Project                  | coursera.org/verify/WU2LMRUIPKXH                             | 
 
