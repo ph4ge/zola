@@ -111,4 +111,5 @@ title="Certifications"
 | Encoder-Decoder Architecture                                 |                         Coursera                          | coursera.org/verify/1T7DMR1S3JT9                             |
 | Transformer Models and BERT Model                            |                         Coursera                          | coursera.org/verify/WJ4CCYVPWITN                             |
 | Interpretable Machine Learning Applications: Part 2          |                         Coursera Project                  | coursera.org/verify/WU2LMRUIPKXH                             | 
+| Transfer Learning for NLP with TensorFlow Hub                |                         Coursera Project                  | coursera.org/verify/MKO96TP2ZJLH                             | 
 
