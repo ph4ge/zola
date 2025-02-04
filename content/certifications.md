@@ -112,4 +112,5 @@ title="Certifications"
 | Transformer Models and BERT Model                            |                         Coursera                          | coursera.org/verify/WJ4CCYVPWITN                             |
 | Interpretable Machine Learning Applications: Part 2          |                         Coursera Project                  | coursera.org/verify/WU2LMRUIPKXH                             | 
 | Transfer Learning for NLP with TensorFlow Hub                |                         Coursera Project                  | coursera.org/verify/MKO96TP2ZJLH                             | 
+| Interpretable Machine Learning Applications: Part 1          |                         Coursera Project                  | coursera.org/verify/EM8JKJ2YIECF                             | 
 
