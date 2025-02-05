@@ -113,4 +113,5 @@ title="Certifications"
 | Interpretable Machine Learning Applications: Part 2          |                         Coursera Project                  | coursera.org/verify/WU2LMRUIPKXH                             | 
 | Transfer Learning for NLP with TensorFlow Hub                |                         Coursera Project                  | coursera.org/verify/MKO96TP2ZJLH                             | 
 | Interpretable Machine Learning Applications: Part 1          |                         Coursera Project                  | coursera.org/verify/EM8JKJ2YIECF                             | 
+| Support Vector Machines in Python, From Start to Finish      |                         Coursera Project                  | coursera.org/verify/UIZ6VS1C03JE                             | 
 
