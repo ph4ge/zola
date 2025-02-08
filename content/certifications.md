@@ -115,4 +115,5 @@ title="Certifications"
 | Interpretable Machine Learning Applications: Part 1          |                         Coursera Project                  | coursera.org/verify/EM8JKJ2YIECF                             | 
 | Support Vector Machines in Python, From Start to Finish      |                         Coursera Project                  | coursera.org/verify/UIZ6VS1C03JE                             | 
 | ML Parameters Optimization: GridSearch, Bayesian, Random     |                         Coursera Project                  | coursera.org/verify/CR9WN1JU89BZ                             | 
+| Generative AI                                                |                         Coursera                          | coursera.org/verify/P2RZ7AXOKMH6                             | 
 
