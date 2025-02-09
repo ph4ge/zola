@@ -102,7 +102,7 @@ title="Certifications"
 | Computational Neuroscience                                   |                         Coursera                          | coursera.org/verify/UH58WVB65NQX                             |
 | Developing AI Policy                                         |                         Coursera                          | coursera.org/verify/RQ5TKRMT9RTI                             |
 | Basic Pytorch Tensor Manipulation for Machine Learning       |                         educative.io                      | educative.io/verify-certificate/g78zQW5O1q9swWWNrmkpQmcywB77zwWL3Tk|
-| Deep Learning - Recurrent Neural Networks with TensorFlow    |                         Coursera                          | coursera.org/verify/KVNHZGNUJZPW                             |
+| Deep Learning: Recurrent Neural Networks with TensorFlow     |                         Coursera                          | coursera.org/verify/KVNHZGNUJZPW                             |
 | Introduction to RNN and DNN                                  |                         Coursera                          | coursera.org/verify/B4PTVLKFHR7Y                             |
 | Principal Component Analysis with NumPy                      |                         Coursera Project                  | coursera.org/verify/OUPYT6MIE8VQ                             |
 | Fundamental Neuroscience for Neuroimaging                    |                         Coursera                          | coursera.org/verify/WT8X8YOULSSC                             |
@@ -117,4 +117,5 @@ title="Certifications"
 | ML Parameters Optimization: GridSearch, Bayesian, Random     |                         Coursera Project                  | coursera.org/verify/CR9WN1JU89BZ                             | 
 | Generative AI                                                |                         Coursera                          | coursera.org/verify/P2RZ7AXOKMH6                             | 
 | Tweet Emotion Recognition with TensorFlow                    |                         Coursera Project                  | coursera.org/verify/363WO0KKM3UR                             | 
+| Deep Learning: Convolutional Neural Networks with TensorFlow |                         Coursera                          | coursera.org/verify/RNUOULZRNKUM                             | 
 
