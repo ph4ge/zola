@@ -118,4 +118,5 @@ title="Certifications"
 | Generative AI                                                |                         Coursera                          | coursera.org/verify/P2RZ7AXOKMH6                             | 
 | Tweet Emotion Recognition with TensorFlow                    |                         Coursera Project                  | coursera.org/verify/363WO0KKM3UR                             | 
 | Deep Learning: Convolutional Neural Networks with TensorFlow |                         Coursera                          | coursera.org/verify/RNUOULZRNKUM                             | 
+| Sentiment Analysis with Deep Learning using BERT             |                         Coursera Project                  | coursera.org/verify/ILPXX5N33Z1J                             | 
 
