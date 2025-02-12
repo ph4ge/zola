@@ -120,4 +120,5 @@ title="Certifications"
 | Deep Learning: Convolutional Neural Networks with TensorFlow |                         Coursera                          | coursera.org/verify/RNUOULZRNKUM                             | 
 | Sentiment Analysis with Deep Learning using BERT             |                         Coursera Project                  | coursera.org/verify/ILPXX5N33Z1J                             | 
 | Fine Tune BERT for Text Classification with TensorFlow       |                         Coursera Project                  | coursera.org/verify/NGI0CND7BHHO                             | 
+| Hyperparameter Tuning with Keras Tuner                       |                         Coursera Project                  | coursera.org/verify/6DQBRGIPTXFR                             | 
 
