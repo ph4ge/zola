@@ -121,4 +121,5 @@ title="Certifications"
 | Sentiment Analysis with Deep Learning using BERT             |                         Coursera Project                  | coursera.org/verify/ILPXX5N33Z1J                             | 
 | Fine Tune BERT for Text Classification with TensorFlow       |                         Coursera Project                  | coursera.org/verify/NGI0CND7BHHO                             | 
 | Hyperparameter Tuning with Keras Tuner                       |                         Coursera Project                  | coursera.org/verify/6DQBRGIPTXFR                             | 
+| Creating Multi Task Models With Keras                        |                         Coursera Project                  | coursera.org/verify/TWWVIJ2JMEEH                             | 
 
