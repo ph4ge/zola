@@ -122,4 +122,5 @@ title="Certifications"
 | Fine Tune BERT for Text Classification with TensorFlow       |                         Coursera Project                  | coursera.org/verify/NGI0CND7BHHO                             | 
 | Hyperparameter Tuning with Keras Tuner                       |                         Coursera Project                  | coursera.org/verify/6DQBRGIPTXFR                             | 
 | Creating Multi Task Models With Keras                        |                         Coursera Project                  | coursera.org/verify/TWWVIJ2JMEEH                             | 
+| ExplainableAI : Scene Classification & GradCam Visualization |                         Coursera Project                  | coursera.org/verify/V2X6BYJ767WY                             | 
 
