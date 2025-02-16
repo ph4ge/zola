@@ -12,6 +12,7 @@ title="Certifications"
 | Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization |                      deeplearning.ai                      | coursera.org/verify/E8NVJEDTT3SJ                             |
 | Structuring Machine Learning Projects                        |                      deeplearning.ai                      | coursera.org/verify/E8NVJEDTT3SJ                             |
 | Convolutional Neural Networks                                |                      deeplearning.ai                      | coursera.org/verify/D3EC2YM9ZZCG                             |
+| Deep Learning                                                |                      deeplearning.ai                      | coursera.org/verify/specialization/KXNTMW3TP8D5              |
 | Mathematics for Machine Learning: Linear Algebra             |                  Imperial College London                  | coursera.org/verify/P3Z7BE44RD54                             |
 | Mathematics for Machine Learning: Multivariate Calculus      |                  Imperial College London                  | coursera.org/verify/JVWXTYWPPQHF                             |
 | Mathematics for Machine Learning: PCA                        |                  Imperial College London                  | coursera.org/verify/BU7WQNLW7UWV                             |
