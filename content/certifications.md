@@ -126,4 +126,5 @@ title="Certifications"
 | ExplainableAI : Scene Classification & GradCam Visualization |                         Coursera Project                  | coursera.org/verify/V2X6BYJ767WY                             | 
 | Deep Learning with PyTorch : Siamese Network                 |                         Coursera Project                  | coursera.org/verify/DEEUVG147J50                             | 
 | Deep Learning: Artificial Neural Networks with TensorFlow    |                         Coursera                          | coursera.org/verify/BR4IQK9J6SY0                             |
+| Introduction to Generative AI for Software Development       |                         Coursera                          | coursera.org/verify/LNI53A0FRMAQ                             |
 
