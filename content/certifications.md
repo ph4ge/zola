@@ -129,4 +129,5 @@ title="Certifications"
 | Introduction to Generative AI for Software Development       |                         Coursera                          | coursera.org/verify/LNI53A0FRMAQ                             |
 | Beginning Llamafile for Local Large Language Models (LLMs)   |                         Coursera                          | coursera.org/verify/TQBAKJG37OP7                             |
 | Selecting the Right LLM with Hugging Face                    |                         Coursera Instructor Network       | coursera.org/verify/S9UB4D4OFHPQ                             |
+| Introduction to Retrieval Augmented Generation (RAG)         |                         Coursera Instructor Network       | coursera.org/verify/PRD9JXSYTQX8                             |
 
