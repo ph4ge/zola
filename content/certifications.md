@@ -131,4 +131,4 @@ title="Certifications"
 | Selecting the Right LLM with Hugging Face                    |                         Coursera Instructor Network       | coursera.org/verify/S9UB4D4OFHPQ                             |
 | Introduction to Retrieval Augmented Generation (RAG)         |                         Coursera Instructor Network       | coursera.org/verify/PRD9JXSYTQX8                             |
 | Introduction to Retrieval Augmented Generation (RAG)         |                         Coursera                          | coursera.org/verify/N3A7KFZ2EKL9                             |
-
+| Diabetes Disease Detection with XG-Boost and Neural Networks |                         Coursera Project                  | coursera.org/verify/IT3ZX5GX16ZA                             | 
