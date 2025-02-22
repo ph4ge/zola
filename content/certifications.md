@@ -133,3 +133,4 @@ title="Certifications"
 | Introduction to Retrieval Augmented Generation (RAG)         |                         Coursera                          | coursera.org/verify/N3A7KFZ2EKL9                             |
 | Diabetes Disease Detection with XG-Boost and Neural Networks |                         Coursera Project                  | coursera.org/verify/IT3ZX5GX16ZA                             | 
 | Pneumonia Classification using PyTorch                       |                         Coursera Project                  | coursera.org/verify/00Y84WMA2JNS                             | 
+| Facial Expression Recognition with PyTorch                   |                         Coursera Project                  | coursera.org/verify/6WF4B8E7HO5O                             | 
