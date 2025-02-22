@@ -134,3 +134,4 @@ title="Certifications"
 | Diabetes Disease Detection with XG-Boost and Neural Networks |                         Coursera Project                  | coursera.org/verify/IT3ZX5GX16ZA                             | 
 | Pneumonia Classification using PyTorch                       |                         Coursera Project                  | coursera.org/verify/00Y84WMA2JNS                             | 
 | Facial Expression Recognition with PyTorch                   |                         Coursera Project                  | coursera.org/verify/6WF4B8E7HO5O                             | 
+| Deep Learning with PyTorch : Generative Adversarial Network  |                         Coursera Project                  | coursera.org/verify/VXZL7Z1XAQYJ                             | 
