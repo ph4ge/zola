@@ -137,3 +137,4 @@ title="Certifications"
 | Deep Learning with PyTorch : Generative Adversarial Network  |                         Coursera Project                  | coursera.org/verify/VXZL7Z1XAQYJ                             | 
 | Data Balancing with Gen AI: Credit Card Fraud Detection      |                         Coursera Project                  | coursera.org/verify/5JY7VHGG5C20                             | 
 | Detecting COVID-19 with Chest X-Ray using PyTorch            |                         Coursera Project                  | coursera.org/verify/DNQ8X5NDQO0U                             | 
+| Coursera Project: Data Visualization with Plotly Express     |                         Coursera Project                  | coursera.org/verify/7GOBWZVS5JB9                             | 
