@@ -138,3 +138,4 @@ title="Certifications"
 | Data Balancing with Gen AI: Credit Card Fraud Detection      |                         Coursera Project                  | coursera.org/verify/5JY7VHGG5C20                             | 
 | Detecting COVID-19 with Chest X-Ray using PyTorch            |                         Coursera Project                  | coursera.org/verify/DNQ8X5NDQO0U                             | 
 | Coursera Project: Data Visualization with Plotly Express     |                         Coursera Project                  | coursera.org/verify/7GOBWZVS5JB9                             | 
+| Coursera Project: Visualizing Filters of a CNN using TF      |                         Coursera Project                  | coursera.org/verify/VFMOTT879TDT                             | 
