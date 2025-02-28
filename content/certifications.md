@@ -140,3 +140,4 @@ title="Certifications"
 | Coursera Project: Data Visualization with Plotly Express     |                         Coursera Project                  | coursera.org/verify/7GOBWZVS5JB9                             | 
 | Coursera Project: Visualizing Filters of a CNN using TF      |                         Coursera Project                  | coursera.org/verify/VFMOTT879TDT                             | 
 | Coursera Project: Deep-Dive into TF Activation Functions     |                         Coursera Project                  | coursera.org/verify/Z4SXUYNKYM1B                             | 
+| Coursera Project: Scikit-Learn For ML Classification Problems|                         Coursera Project                  | coursera.org/verify/R9YVT94SHB4O                             | 
