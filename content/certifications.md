@@ -141,3 +141,4 @@ title="Certifications"
 | Coursera Project: Visualizing Filters of a CNN using TF      |                         Coursera Project                  | coursera.org/verify/VFMOTT879TDT                             | 
 | Coursera Project: Deep-Dive into TF Activation Functions     |                         Coursera Project                  | coursera.org/verify/Z4SXUYNKYM1B                             | 
 | Coursera Project: Scikit-Learn For ML Classification Problems|                         Coursera Project                  | coursera.org/verify/R9YVT94SHB4O                             | 
+| Coursera Project: SkLearn to Solve Regression ML Problems    |                         Coursera Project                  | coursera.org/verify/VCV3JGYGGWP3                             | 
