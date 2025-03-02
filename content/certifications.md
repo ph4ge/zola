@@ -144,4 +144,4 @@ title="Certifications"
 | Scikit-Learn to Solve Regression Machine Learning Problems   |                         Coursera Project                  | coursera.org/verify/VCV3JGYGGWP3                             | 
 | Machine Learning for Kyphosis Disease Classification         |                         Coursera Project                  | coursera.org/verify/PDCUUHZ6KQOO                             | 
 | Cervical Cancer Risk Prediction Using Machine Learning       |                         Coursera Project                  | coursera.org/verify/EOU01JMEK0WV                             | 
-|  Data Visualization & Storytelling in Python                 |                         Coursera Project                  | coursera.org/verify/MWF9IYE6J083                             | 
+| Data Visualization & Storytelling in Python                  |                         Coursera Project                  | coursera.org/verify/MWF9IYE6J083                             | 
