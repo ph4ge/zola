@@ -137,9 +137,10 @@ title="Certifications"
 | Deep Learning with PyTorch : Generative Adversarial Network  |                         Coursera Project                  | coursera.org/verify/VXZL7Z1XAQYJ                             | 
 | Data Balancing with Gen AI: Credit Card Fraud Detection      |                         Coursera Project                  | coursera.org/verify/5JY7VHGG5C20                             | 
 | Detecting COVID-19 with Chest X-Ray using PyTorch            |                         Coursera Project                  | coursera.org/verify/DNQ8X5NDQO0U                             | 
-| Coursera Project: Data Visualization with Plotly Express     |                         Coursera Project                  | coursera.org/verify/7GOBWZVS5JB9                             | 
-| Coursera Project: Visualizing Filters of a CNN using TF      |                         Coursera Project                  | coursera.org/verify/VFMOTT879TDT                             | 
-| Coursera Project: Deep-Dive into TF Activation Functions     |                         Coursera Project                  | coursera.org/verify/Z4SXUYNKYM1B                             | 
-| Coursera Project: Scikit-Learn For ML Classification Problems|                         Coursera Project                  | coursera.org/verify/R9YVT94SHB4O                             | 
-| Coursera Project: SkLearn to Solve Regression ML Problems    |                         Coursera Project                  | coursera.org/verify/VCV3JGYGGWP3                             | 
-| Coursera Project: ML for Kyphosis Disease Classification     |                         Coursera Project                  | coursera.org/verify/PDCUUHZ6KQOO                             | 
+| Data Visualization with Plotly Express                       |                         Coursera Project                  | coursera.org/verify/7GOBWZVS5JB9                             | 
+| Visualizing Filters of a CNN using TensorFlow                |                         Coursera Project                  | coursera.org/verify/VFMOTT879TDT                             | 
+| Deep-Dive into TensorFlow Activation Functions               |                         Coursera Project                  | coursera.org/verify/Z4SXUYNKYM1B                             | 
+| Scikit-Learn For Machine Learning Classification Problems    |                         Coursera Project                  | coursera.org/verify/R9YVT94SHB4O                             | 
+| Scikit-Learn to Solve Regression Machine Learning Problems   |                         Coursera Project                  | coursera.org/verify/VCV3JGYGGWP3                             | 
+| Machine Learning for Kyphosis Disease Classification         |                         Coursera Project                  | coursera.org/verify/PDCUUHZ6KQOO                             | 
+| Cervical Cancer Risk Prediction Using Machine Learning       |                         Coursera Project                  | coursera.org/verify/EOU01JMEK0WV                             | 
