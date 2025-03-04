@@ -145,3 +145,4 @@ title="Certifications"
 | Machine Learning for Kyphosis Disease Classification         |                         Coursera Project                  | coursera.org/verify/PDCUUHZ6KQOO                             | 
 | Cervical Cancer Risk Prediction Using Machine Learning       |                         Coursera Project                  | coursera.org/verify/EOU01JMEK0WV                             | 
 | Data Visualization & Storytelling in Python                  |                         Coursera Project                  | coursera.org/verify/MWF9IYE6J083                             | 
+| Build a Machine Learning Web App with Streamlit and Python   |                         Coursera Project                  | coursera.org/verify/I8KZAIOGFZ54                             | 
