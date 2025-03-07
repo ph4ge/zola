@@ -148,3 +148,4 @@ title="Certifications"
 | Build a Machine Learning Web App with Streamlit and Python   |                         Coursera Project                  | coursera.org/verify/I8KZAIOGFZ54                             | 
 | Breast Cancer Prediction Using Machine Learning              |                         Coursera Project                  | coursera.org/verify/1NZYMIMBWA6S                             | 
 | Classify Radio Signals with PyTorch                          |                         Coursera Project                  | coursera.org/verify/MSTHMZE9YKO5                             | 
+| Deep Learning with PyTorch : Object Localization             |                         Coursera Project                  | coursera.org/verify/5MIR72L6FF3F                             | 
