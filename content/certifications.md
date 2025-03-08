@@ -149,3 +149,4 @@ title="Certifications"
 | Breast Cancer Prediction Using Machine Learning              |                         Coursera Project                  | coursera.org/verify/1NZYMIMBWA6S                             | 
 | Classify Radio Signals with PyTorch                          |                         Coursera Project                  | coursera.org/verify/MSTHMZE9YKO5                             | 
 | Deep Learning with PyTorch : Object Localization             |                         Coursera Project                  | coursera.org/verify/5MIR72L6FF3F                             | 
+| Deep Learning with PyTorch : Image Segmentation              |                         Coursera Project                  | coursera.org/verify/WL38Y7QF7P3E                             | 
