@@ -152,3 +152,4 @@ title="Certifications"
 | Deep Learning with PyTorch : Image Segmentation              |                         Coursera Project                  | coursera.org/verify/WL38Y7QF7P3E                             | 
 | Basic Image Classification with TensorFlow                   |                         Coursera Project                  | coursera.org/verify/MJ6AHHJGSKEQ                             | 
 | Aerial Image Segmentation with PyTorch                       |                         Coursera Project                  | coursera.org/verify/2DOIJEMCSU2B                             | 
+| Object Localization with TensorFlow                          |                         Coursera Project                  | coursera.org/verify/XKT1K4ZD305L                             | 
