@@ -153,3 +153,4 @@ title="Certifications"
 | Basic Image Classification with TensorFlow                   |                         Coursera Project                  | coursera.org/verify/MJ6AHHJGSKEQ                             | 
 | Aerial Image Segmentation with PyTorch                       |                         Coursera Project                  | coursera.org/verify/2DOIJEMCSU2B                             | 
 | Object Localization with TensorFlow                          |                         Coursera Project                  | coursera.org/verify/XKT1K4ZD305L                             | 
+| Classification Trees in Python, From Start To Finish         |                         Coursera Project                  | coursera.org/verify/OD0OI691X3VS                             | 
