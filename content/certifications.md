@@ -155,3 +155,4 @@ title="Certifications"
 | Object Localization with TensorFlow                          |                         Coursera Project                  | coursera.org/verify/XKT1K4ZD305L                             | 
 | Classification Trees in Python, From Start To Finish         |                         Coursera Project                  | coursera.org/verify/OD0OI691X3VS                             | 
 | Generative Pre-trained Transformers (GPT)                    |                         Coursera                          | coursera.org/verify/GI1QVIM3UFC3                             |
+| Researcher's guide to omic fundamentals                      |                         Coursera                          | coursera.org/verify/AXT24RHM2CN5                             |
