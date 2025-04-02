@@ -156,3 +156,4 @@ title="Certifications"
 | Classification Trees in Python, From Start To Finish         |                         Coursera Project                  | coursera.org/verify/OD0OI691X3VS                             | 
 | Generative Pre-trained Transformers (GPT)                    |                         Coursera                          | coursera.org/verify/GI1QVIM3UFC3                             |
 | Researcher's guide to omic fundamentals                      |                         Coursera                          | coursera.org/verify/AXT24RHM2CN5                             |
+| Build Basic Generative Adversarial Networks (GANs)           |                         Coursera                          | coursera.org/verify/BH143SFGKLJW                             |
