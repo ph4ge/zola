@@ -54,7 +54,7 @@ shortname = "my-supa-dupa-blog"
 
 [extra.author]
 name = "Tolga Topal"
-email = "author@domain.com"
+email = "root@tolgatopal.info"
 
 [extra.google_analytics]
 enable = false
