@@ -1,5 +1,5 @@
 +++
-title="Cognitive Common License"
+title="Cognitive Commons License"
 +++
 
 Cognitive Commons License (CCL) - Draft v0.1
