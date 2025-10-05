@@ -31,7 +31,8 @@ hermit_menu = [
     { link = "/posts", name = "Posts" },
     { link = "/about", name = "About" },
     { link = "/publications", name = "Publications" },
-    { link = "/certifications", name = "Certifications" }
+    { link = "/certifications", name = "Certifications" },
+    { link = "/license-ccl", name = "CCL" }
 ]
 
 hermit_social = [
