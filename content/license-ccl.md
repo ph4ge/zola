@@ -2,6 +2,9 @@
 title="Cognitive Commons License"
 +++
 
+This project is now hosted: [Emergent Cognition](https://emergentcognition.org/license/)
+
+
 Cognitive Commons License (CCL) - Draft v0.1
 
 You are free to:
