@@ -5,6 +5,8 @@ title="Publications"
 
 # Preprints
 
+- [Critical Depth and the Scaling Law Paradox: A Refactored Resource Model](https://doi.org/10.20944/preprints202512.1471.v1)
+
 - [Information Theory Laws: A Recollection](https://doi.org/10.20944/preprints202512.1128.v1)
 
 - [A Review of Methods for String Complexity and Other Objects](https://doi.org/10.20944/preprints202505.1279.v1)
