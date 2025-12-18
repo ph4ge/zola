@@ -5,7 +5,7 @@ title="Publications"
 
 # Preprints
 
-- [Critical Depth and the Scaling Law Paradox: A Refactored Resource Model](https://doi.org/10.20944/preprints202512.1471.v1)
+- Critical Depth and the Scaling Law Paradox: A Refactored Resource Model, [Emergent Cognition](https://emergentcognition.org/publications/)
 
 - [Information Theory Laws: A Recollection](https://doi.org/10.20944/preprints202512.1128.v1)
 
