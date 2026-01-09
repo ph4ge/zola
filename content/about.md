@@ -4,7 +4,7 @@ title="About"
 
 
 Hi !
-I am Tolga Topal. I work in the field of machine intelligence. Currently working as a researcher in Algorithmic Machine Intelligence at King Abdullah University of Science and Technology (KAUST).
+I am Tolga Topal. I work in the field of machine intelligence and AI.
 
 Labels can be of some use thus here follows an excerpt of the areas that I am interested in:
 - Algorithmic Information Theory(AIT), Kolmogorov/algorithmic complexity...
