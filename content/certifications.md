@@ -159,3 +159,9 @@ title="Certifications"
 | 152  | Researcher's guide to omic fundamentals                      |                         Coursera                          | coursera.org/verify/AXT24RHM2CN5                             |
 | 153  | Build Basic Generative Adversarial Networks (GANs)           |                         Coursera                          | coursera.org/verify/BH143SFGKLJW                             |
 | 154  | DeepSeek Essentials: From Foundations to Real World Usage    |                         Coursera                          | coursera.org/verify/LPAI7VVKIILI                             |
+| 155  | Introduction to DeepSeek                                     |                         Coursera                          | coursera.org/verify/9DQJXKPXJE8U                             |
+| 156  | Building Applications with DeepSeek                          |                         Coursera                          | coursera.org/verify/H22MDIX0Y5XE                             |
+| 157  | AI Development with DeepSeek for Developers                  |                         Coursera                          | coursera.org/verify/4MJB5E3XJF7F                             |
+| 158  | Mastering DeepSeek: From Architecture to Application         |                         Coursera                          | coursera.org/verify/F128EWUXJQRH                             |
+| 159  | Hands-on DeepSeek                                            |                         Coursera                          | coursera.org/verify/2Y5PBEQAE6V6                             |
+| 160  | Generative AI Engineering and Fine-Tuning Transformers       |                         Coursera                          | coursera.org/verify/PNFH4VRPGA35                             |
