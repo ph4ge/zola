@@ -11,8 +11,8 @@ title="Certifications"
 | 4     | Neural Networks for Machine Learning                         |                   University of Toronto                   | coursera.org/verify/CX4FUJJF9LDV                             |
 | 5     | Neural Networks and Deep Learning                            |                      deeplearning.ai                      | coursera.org/verify/G2QWQEQCJYJR                             |
 | 6     | Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization |                      deeplearning.ai                      | coursera.org/verify/E8NVJEDTT3SJ                             |
-| 7     | Structuring Machine Learning Projects                        |                      deeplearning.ai                      | coursera.org/verify/E8NVJEDTT3SJ                             |
-| 8     | Convolutional Neural Networks                                |                      deeplearning.ai                      | coursera.org/verify/D3EC2YM9ZZCG                             |
+| 7     | Structuring Machine Learning Projects                        |                      deeplearning.ai                      | coursera.org/verify/D3EC2YM9ZZCG                             |
+| 8     | Convolutional Neural Networks                                |                      deeplearning.ai                      | coursera.org/verify/B3HP7LPMN5MW                             |
 | 9     | Deep Learning                                                |                      deeplearning.ai                      | coursera.org/verify/specialization/KXNTMW3TP8D5              |
 | 10    | Mathematics for Machine Learning: Linear Algebra             |                  Imperial College London                  | coursera.org/verify/P3Z7BE44RD54                             |
 | 11    | Mathematics for Machine Learning: Multivariate Calculus      |                  Imperial College London                  | coursera.org/verify/JVWXTYWPPQHF                             |
