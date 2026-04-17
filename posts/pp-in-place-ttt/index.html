@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta itemprop="name" content="" />
+  <meta itemprop="description" content="" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="https://tolgatopal.info/apple-touch-icon.png"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="https://tolgatopal.info/favicon-32x32.png" />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="https://tolgatopal.info/favicon-16x16.png"
+  />
+  <link
+    rel="shortcut icon"
+    href="https://tolgatopal.info/favicon.ico"
+  />
+  <link rel="stylesheet" href="https://tolgatopal.info/style.css"/>
+  
+  <title>[Notes] -- Preprint: In-Place Test-Time Training</title>
+  
+
+  
+
+  <body id="page">
+
+	
+<header id="site-header" class="animated slideInUp faster">
+  <div class="hdr-wrapper section-inner">
+    <div class="hdr-left">
+      <div class="site-branding">
+        <a href="https:&#x2F;&#x2F;tolgatopal.info"></a>
+      </div>
+      <nav class="site-nav hide-in-mobile">
+            
+        
+        <a href="https://tolgatopal.info/posts">Posts</a>
+        
+        <a href="https://tolgatopal.info/about">About</a>
+        
+        <a href="https://tolgatopal.info/publications">Publications</a>
+        
+        <a href="https://tolgatopal.info/projects">Projects</a>
+        
+        <a href="https://tolgatopal.info/certifications">Certifications</a>
+        
+        <a href="https://tolgatopal.info/quotes">Quotes</a>
+        
+        <a href="https://tolgatopal.info/license-ccl">CCL</a>
+        
+      </nav>
+    </div>
+    <div class="hdr-right hdr-icons">
+      <span class="hdr-social hide-in-mobile">
+        
+
+<a href="mailto:root@tolgatopal.info" target="_blank" rel="noopener me"
+   title="email">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+  
+</a>
+
+<a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;tolga-topal-tot&#x2F;" target="_blank" rel="noopener me"
+   title="linkedin">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+  
+</a>
+
+<a href="https:&#x2F;&#x2F;github.com&#x2F;ph4ge" target="_blank" rel="noopener me"
+   title="github">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+  
+</a>
+
+<a href="https:&#x2F;&#x2F;orcid.org&#x2F;0000-0002-7764-706X" target="_blank" rel="noopener me"
+   title="orcid">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.025-5.325 5.025h-3.919V7.416zm1.444 1.303v7.444h2.297c3.272 0 4.022-2.484 4.022-3.722 0-2.016-1.284-3.722-4.097-3.722h-2.222z"/></svg>
+  
+</a>
+
+<a href="https:&#x2F;&#x2F;x.com&#x2F;tolga_plato" target="_blank" rel="noopener me"
+   title="twitter_x">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+  
+</a>
+
+
+      </span>
+      <button id="menu-btn" class="hdr-btn" title="Menu">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="feather feather-menu"
+        >
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+<div id="mobile-menu" class="animated fast">
+  <ul>
+    
+    <li><a href="https://tolgatopal.info/posts">Posts</a></li>
+    
+    <li><a href="https://tolgatopal.info/about">About</a></li>
+    
+    <li><a href="https://tolgatopal.info/publications">Publications</a></li>
+    
+    <li><a href="https://tolgatopal.info/projects">Projects</a></li>
+    
+    <li><a href="https://tolgatopal.info/certifications">Certifications</a></li>
+    
+    <li><a href="https://tolgatopal.info/quotes">Quotes</a></li>
+    
+    <li><a href="https://tolgatopal.info/license-ccl">CCL</a></li>
+    
+  </ul>
+</div>
+
+	
+	
+
+		
+<main class="site-main section-inner animated fadeIn faster">
+  <article class="thin">
+	<header class="post-header">
+	  <div class="post-meta">
+		
+		<span>Apr 15, 2026</span>
+		<small> - 
+<span class="reading-time" title="Estimated read time">
+  
+  3 min read
+  
+</span>
+</small>
+		
+            
+	  </div>
+	  <h1>[Notes] -- Preprint: In-Place Test-Time Training</h1>
+	</header>
+
+	<div class="content">
+        
+	  <h1 id="a-new-milestone">A new milestone?</h1>
+<h2 id="introduction">Introduction</h2>
+<p>This post is about the following preprint: <a href="https://doi.org/10.48550/arXiv.2604.06169">In-Place Test-Time Training</a></p>
+<p>However, this is not a "review" type of post. I don't really believe in those things -- though I will outline some points that I personally find interesting. My underlying rationale is that each of us is unique and, though having the summary/write-up by someone else helps; it conveys a personal perspective which through my numerous readings lead me to conclude that they are often too "flawed/biases" with respect to the original authors of any piece of work -- one can also see this as a game of minimizing/maximizing mutual information between one/other.</p>
+<p>Maybe the best example to further outline my argument is through <em>Precision/Personalized Medecine</em>; the <strong>only</strong> interesting thing about <em>generics</em> are their democratic prices. This is where AI's potential can make things happen that were not possible before. On a <strong>conceptual</strong> and <strong>potential</strong> level this may echo something like: <a href="https://www.meta.com/superintelligence/">Personal SuperIntelligence</a></p>
+<h2 id="core-of-the-matter">Core of the Matter</h2>
+<p>I write these few lines because I am concerned and work (among other things) by the whole <em>AI Safety / Alignment</em> thing. I called it <em>thing</em> because, we kind of feel what these are supposed to be without being able to articulate a proper/formal definition(s) about them.</p>
+<p>Anyhow, in the great scheme of things, I believe we have hit a new milestone with this paper.
+What do I mean by that?</p>
+<p>A number of persons have said it but I'll refer to Kai-Fu Lee saying something about the change in magnitude that AI can be the new <a href="https://www.goodreads.com/author/quotes/1549627.Kai_Fu_Lee"><em>electricity</em></a>.</p>
+<h3 id="breath-in-breath-out">Breath in Breath Out</h3>
+<p>One of the main points developed in the paper is that the LLM ecosystems are ''fixed'' or <em>static</em>. This is a notion that I have been pondering upon since GPT-2. I believe this paper (and possibly others before?) paves the way to a new power dynamic. I like to think of it from switching to DC to AC. The idea came to my mind when seeing the following device: a <em>mercury arc rectifier</em> -- what matters are the concepts.</p>
+<p><a href="https://www.youtube.com/watch?v=Z-YW8Sxj4_8"><img src="https://img.youtube.com/vi/Z-YW8Sxj4_8/0.jpg" alt="Mercury Arc Rectifier" /></a></p>
+<p>This new <em>power dynamics</em> which is dynamical in the sense that the authors propose to use one of the Transformer-neural architecture(TNA) component i.e. the last MLP blocks precisely for dealing with transient information/memory.</p>
+<p>Another analogy would perhaps be from computer communication networks i.e. moving from <em>simplex</em> to <em>half-duplex</em> channel communications.?</p>
+<p>It also interesting to note that this evolution in TNA follows the development of Large Language Reasoning models i.e. in a way to push forward their capabilities.</p>
+<h2 id="some-technical-elements">Some Technical Elements</h2>
+<p>The <em>static</em> aspect can roughly be described as follows: LLMs are trained on a substantial amount of data, they acquire consequential knowledge that we find it very useful and productive to interact with/use. This knowledge is mainly stored as weights, where reasoning may happen or/and through the use of Chain-Of-Thought. Though, I would like to draw the <em>attention</em> that the architecture <em>matters</em>and has weight too.</p>
+<p>Incidentally,</p>
+<ul>
+<li>
+<p>I believe the following reference for understanding multi-token prediction is interesting: <a href="https://doi.org/10.48550/arXiv.2404.19737">Better &amp; Faster Large Language Models via Multi-token Prediction</a></p>
+</li>
+<li>
+<p>The notion of <em>context parallelism</em> described in the paper is of interest.</p>
+</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>Please do note that I purposely don't get into the granularities and intricacies of what might or might not be going with the training of LLMs/LRMs. I started the project: <a href="https://emergentcognition.org/">Emergent Cognition</a> to investigate this.</p>
+<p>Finally, I would like to say that there may very well be prior work(s) on providing a way to ''unfreeze'' or render LLMs/LRMs more dynamic but I happen to came upon this one recently (and didn't perform a systematic review) and the timing <em>feels right</em>.</p>
+<h2 id="references">References</h2>
+<p>Vizuara AI Labs: <a href="https://www.youtube.com/watch?v=QWNxQIq0hMo&amp;list=PLPTV0NXA_ZSiOpKKlHCyOq9lnp-dLvlms">Build DeepSeek from Scratch</a></p>
+<p><a href="https://doi.org/10.48550/arXiv.2507.11473">Chain of Thought Monitorability: A New and Fragile Opportunity for AI Safety</a></p>
+
+	</div>
+	<hr class="post-end">
+	<footer class="post-info">
+    
+	  <p>
+		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+		
+		
+		<span class="tag"><a href="https://tolgatopal.info/tags/blog/">blog</a></span>
+		
+		<span class="tag"><a href="https://tolgatopal.info/tags/preprint/">preprint</a></span>
+		
+		<span class="tag"><a href="https://tolgatopal.info/tags/ai/">ai</a></span>
+		
+		<span class="tag"><a href="https://tolgatopal.info/tags/machine-intelligence/">machine intelligence</a></span>
+		
+		<span class="tag"><a href="https://tolgatopal.info/tags/llms/">llms</a></span>
+		
+		<span class="tag"><a href="https://tolgatopal.info/tags/inference/">inference</a></span>
+		
+		<span class="tag"><a href="https://tolgatopal.info/tags/in-place-ttt/">In-Place-TTT</a></span>
+		
+		
+    </p>
+    
+    <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>692 Words</p>
+    
+    <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2026-04-15</p>
+    
+	</footer>
+  </article>
+    
+  
+  <div class="post-nav thin">
+	
+	
+  </div>
+
+  
+</main>
+
+	  </div>
+	  
+	  
+
+
+
+<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+  <p>&copy; 2026 <a href="https:&#x2F;&#x2F;tolgatopal.info">Tolga Topal</a> &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a> &#183;&#183; <a href="https://emergentcognition.org/license" target="_blank" rel="noopener">CCL </a> <a href="https://buymeacoffee.com/ixidor" target="_blank" rel="noopener" title="Support this inquiry"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" style="vertical-align: middle; margin-left: 2px; margin-right: 4px;"><path d="M19.5 4h-15C3.67 4 3 4.67 3 5.5v13c0 .83.67 1.5 1.5 1.5h15c.83 0 1.5-.67 1.5-1.5v-13c0-.83-.67-1.5-1.5-1.5zm-1.5 13h-12V8h12v9z" fill="#FFDD00"/><circle cx="12" cy="12" r="3" fill="#E5A848"/></svg>Support this inquiry</a></p>
+  <p>Made with <a href="https://www.getzola.org" target="_blank" rel="noopener">Zola</a> &#183; Theme <a href="https://github.com/VersBinarii/hermit_zola" target="_blank" rel="noopener">Hermit_Zola</a>
+	
+  </p>
+</footer>
+
+
+
+
+	</div>
+	
+	<script src="https://tolgatopal.info/js/main.js"></script>
+
+	<!-- Math rendering -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+        onload="renderMathInElement(document.body, { delimiters: [ {left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}, {left: '\\[', right: '\\]', display: true}, {left: '\\(', right: '\\)', display: false}]});"></script>
+
+    
+		<link href="https://unpkg.com/highlightjs-badge/highlightjs/styles/vs2015.css" rel="stylesheet">
+		<!-- https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.1/build/styles/  for min version -->
+		<script src="https://unpkg.com/highlightjs-badge/highlightjs/highlight.pack.js"></script>
+		<script src="https://unpkg.com/highlightjs-badge/highlightjs-badge.min.js"></script>
+		<script>
+			var pres = document.querySelectorAll("pre>code");
+			for (var i = 0; i < pres.length; i++) {
+				hljs.highlightBlock(pres[i]);
+			}
+		</script>
+		
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
+			<script>
+				var options = {
+					copyIconClass: "gg-clipboard",
+					checkIconClass: "gg-check"
+				};
+				window.highlightJsBadge(options);
+			</script>
+		
+
+	
+
+	
+	<script src="https://tolgatopal.info/js/main.js"></script>
+
+    
+    
+
+	
+  </body>
+</html>
