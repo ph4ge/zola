@@ -5,7 +5,7 @@ title="Publications"
 
 # Preprints
 
-- [Radioactive Information: How Uncomputability Ensures O(1) Precision for Non-Shannon Inequalities](https://doi.org/10.20944/preprints202512.2361.v1)
+- Erratum: [~~Radioactive Information: How Uncomputability Ensures O(1) Precision for Non-Shannon Inequalities~~](https://doi.org/10.20944/preprints202512.2361.v1)
 
 - Critical Depth and the Scaling Law Paradox: A Refactored Resource Model, [Emergent Cognition](https://emergentcognition.org/publications/)
 
@@ -15,6 +15,6 @@ title="Publications"
 
 
 
-# MSc. Thesis
+# MSc AI and Deep Learning Thesis
 
 - [What Fuels Transformers in Computer Vision? Unraveling ViT's Advantages](https://www.grin.com/document/1437625)
