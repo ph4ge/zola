@@ -94,7 +94,7 @@ set -a && source ~/.vibe/.env && set +a
 
 ---
 
-### **Step 2: Update `config.toml**`
+### **Step 2: Update `config.toml`**
 
 Edit `~/.vibe/config.toml` to add the **Codestral provider and model**:
 
