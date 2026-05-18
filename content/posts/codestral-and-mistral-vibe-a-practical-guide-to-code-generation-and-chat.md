@@ -1,8 +1,8 @@
 +++
 title="Codestral and Mistral Vibe: A Practical Guide to Code Generation and Chat" 
-date=2026-05-16  
+date=2026-05-16
 [taxonomies]
-tags=["AI", "Codestral", "Mistral Vibe", "Code Generation", "LLM", "Developer Tools"]  
+tags=["AI", "Codestral", "Mistral Vibe", "Code Generation", "LLM", "Developer Tools"]
 +++
 
 
