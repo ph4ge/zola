@@ -6,7 +6,7 @@ description="Exploring the capabilities of Mistral AI models through a custom cl
 tags=["Mistral AI", "Model Analysis", "Python"]
 +++
 
-In this post, we'll explore the capabilities of Mistral AI models through a custom classification system. We've developed a Python script that analyzes model data, classifies models based on their capabilities, and presents the findings in an HTML format.
+In this post, we'll explore the capabilities of Mistral AI models through a custom classification system. We've developed a Python script that analyzes model data, classifies models based on their capabilities, and presents the findings in a HTML format.
 
 ## Background
 
@@ -19,7 +19,7 @@ We've developed a modified version of [`async_list_models.py`](https://github.co
 1. Loads model data from JSON
 2. Classifies models into logical groups based on their capabilities
 3. Calculates capability scores for ranking within groups
-4. Generates an interactive HTML report
+4. Generates a HTML report
 
 The classification system groups models into these categories:
 
@@ -40,7 +40,7 @@ It's important to note that the capability scores used in this analysis are not 
 
 ## The Analysis Report
 
-We've generated an interactive HTML report that presents the model data in a structured and organized way. You can download the full report [model_analysis.html](/html/model_analysis.html)
+We've generated a HTML report that presents the model data in a structured and organized way. You can download the full report [model_analysis.html](/html/model_analysis.html)
 
 <iframe src="/html/model_analysis.html" width="100%" height="800px" frameborder="0"></iframe>
 
