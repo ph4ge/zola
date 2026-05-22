@@ -8,7 +8,7 @@ tags=["AI", "Codestral", "Mistral Vibe", "Code Generation", "LLM", "Developer To
 
 I have been experimenting with Mistral AI `codestral`. The coding model that is accessible through API at the following url: [codestral](https://console.mistral.ai/codestral).
 
-The model comes with two endpoints: `chat` and `fim`(fill-in-the-Middle)). I have been able to successfully use these with the following addition to the `~./vibe/config.toml` file.
+The model comes with two endpoints: `chat` and `fim`(fill-in-the-Middle). I have been able to successfully use these with the following addition to the `~./vibe/config.toml` file.
 
 Here are working additions to `config.toml`:
 
