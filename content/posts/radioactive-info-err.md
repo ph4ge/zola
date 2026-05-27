@@ -17,3 +17,8 @@ However, the insights concerning the copy lemma are valid. But more importantly,
 
 Finally, I will be updating my preprint with a new version on preprints.org stating the existence of an erratum.
 
+---
+
+**Update**: 7th of May 2026 
+
+I published a new piece of [research concerning Q2](@/publications.md): *The Algorithmic Copy Lemma Fails for Prefix Kolmogorov Complexity*.
