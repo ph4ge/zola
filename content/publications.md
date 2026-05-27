@@ -5,7 +5,7 @@ title="Publications"
 
 # Preprints
 
-- Erratum: [~~Radioactive Information: How Uncomputability Ensures O(1) Precision for Non-Shannon Inequalities~~](https://doi.org/10.20944/preprints202512.2361.v1)
+- [Erratum](@/posts/radioactive-info-err.md): [~~Radioactive Information: How Uncomputability Ensures O(1) Precision for Non-Shannon Inequalities~~](https://doi.org/10.20944/preprints202512.2361.v1)
 
 - Critical Depth and the Scaling Law Paradox: A Refactored Resource Model, [Emergent Cognition](https://emergentcognition.org/publications/)
 
