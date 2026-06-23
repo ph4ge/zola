@@ -79,6 +79,8 @@ Amazon built AWS to handle its internal retail scale, eventually realizing the r
 * **The High-Level Compiler Frontend (JAX/XLA):** JAX is not a bloated software framework; its pure functional programming layout and direct integration with the XLA (Accelerated Linear Algebra) compiler allow for whole-program analysis, operation fusion, and optimal memory management out of the box. Massive players across the ecosystem—including Anthropic—rely heavily on JAX to execute long-horizon, distributed optimization loops.
 * **The Silicon Fabric (TPUs & Pathways):** While the broader market encounters the "memory wall" scrambling for discrete GPUs, Google’s multi-pod TPU clusters and Pathways unified runtime are custom-engineered to manage the exact macroscopic variables—such as memory layout optimization and asynchronous checkpointing—needed to push learning curves at scale.
 
+[![Google Pathways Architecture](https://img.youtube.com/vi/Nf-d9CcEZ2w/0.jpg)](https://www.youtube.com/watch?v=Nf-d9CcEZ2w)
+
 By optimizing the vertical synergy between JAX, XLA, and their eighth-generation TPU systems, Google stops caring whether Gemini wins a consumer popularity contest. They become the un-bypassable digital power grid. Every time a competitor runs a massive training run or handles enterprise-grade distributed inference, **Google extracts pure economic rent from the substrate.**
 
 ---
