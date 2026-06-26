@@ -5,6 +5,11 @@ title="Publications"
 
 # Preprints
 
+
+- [A Note on Combinatorial Factors in Kolmogorov Complexity](https://dx.doi.org/10.2139/ssrn.6985019)
+
+- [On Q5: Complexity Determines the Profile Set for One Auxiliary String](https://dx.doi.org/10.2139/ssrn.6985018)
+
 - [The Algorithmic Copy Lemma Fails for (Prefix) Kolmogorov Complexity](https://doi.org/10.5281/zenodo.20070533)
 
 - [Erratum](@/posts/radioactive-info-err.md): [~~Radioactive Information: How Uncomputability Ensures O(1) Precision for Non-Shannon Inequalities~~](https://doi.org/10.20944/preprints202512.2361.v1)
