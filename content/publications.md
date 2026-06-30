@@ -20,6 +20,9 @@ title="Publications"
 
 - [A Review of Methods for String Complexity and Other Objects](https://doi.org/10.20944/preprints202505.1279.v1)
 
+# Workshops
+
+- For the [17th International Conference on Computational Creativity (ICCC'26)](https://computationalcreativity.net/workshops/theorycs-cc-iccc26/) I got accepted and presented: [The Impossibility Triangle: A Human-AI Journey At The Frontier](https://computationalcreativity.net/workshops/theorycs-cc-iccc26/abstracts/topal_triangle_frontier.pdf)
 
 
 # MSc AI and Deep Learning Thesis
