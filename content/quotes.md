@@ -14,5 +14,9 @@ Henri Laborit, L'homme imaginant (1970)
 
 John B. Goodenough, Nobel Prize in Chemistry 2019
 
+---
 
+*L'acte méchant est un transfert sur autrui de la dégradation qu'on porte en soi.*
+
+Simon Veil
 
