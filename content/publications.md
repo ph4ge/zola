@@ -23,7 +23,9 @@ title="Publications"
 
 - [A Review of Methods for String Complexity and Other Objects](https://doi.org/10.20944/preprints202505.1279.v1)
 
-# Workshops
+# Workshops & Symposiums
+
+- [Third Symposium on Algorithmic Information Theory and Machine Learning: AI Safety Applications](https://sites.google.com/site/boumedienehamzi/third-symposium-on-machine-learning-and-algorithmic-information-theory), I presented: [Creativity as Joint Short-Program Search: An AIT Formalization](https://www.youtube.com/watch?v=bz6dA4DpmM0)
 
 - For the [17th International Conference on Computational Creativity (ICCC'26)](https://computationalcreativity.net/workshops/theorycs-cc-iccc26/) I got accepted and presented: [The Impossibility Triangle: A Human-AI Journey At The Frontier](https://computationalcreativity.net/workshops/theorycs-cc-iccc26/abstracts/topal_triangle_frontier.pdf)
 
