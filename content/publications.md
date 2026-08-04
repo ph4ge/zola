@@ -5,6 +5,8 @@ title="Publications"
 
 # Preprints
 
+- [Transcendence of the Center Column Generating Function of Rule 30 and the Resolution of the Prize Problems](https://doi.org/10.5281/zenodo.21780750)
+
 - [The Thermodynamic Limits of Universal Computation and the Impossibility of Algorithmic Twins](https://doi.org/10.5281/zenodo.21158326)
 
 - [A Note on Combinatorial Factors in Kolmogorov Complexity](https://dx.doi.org/10.2139/ssrn.6985019)
