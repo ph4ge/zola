@@ -18,6 +18,8 @@ taxonomies = [
 [extra]
 # Put all your custom variables here
 home_subtitle = "Compressing space"
+katex_enable = true
+katex_auto_render = true
 
 #footer_copyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 #footer_copyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a> &#183; <a href="https://buymeacoffee.com/ixidor" target="_blank" rel="noopener">Support this inquiry</a>'
@@ -40,7 +42,6 @@ hermit_social = [
     { name = "orcid", link = "https://orcid.org/0000-0002-7764-706X" },
     { name = "twitter_x", link = "https://x.com/tolga_plato" }
 ]
-
 
 
 [extra.highlightjs]
