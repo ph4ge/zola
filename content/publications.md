@@ -5,6 +5,8 @@ title="Publications"
 
 # Preprints
 
+- [Extracting Common Information: Solutions to Q7, Q8, and Q9 of the 27 Open Problems](https://dx.doi.org/10.2139/ssrn.7251558)
+
 - [Transcendence of the Center Column Generating Function of Rule 30 and the Resolution of the Prize Problems](https://doi.org/10.5281/zenodo.21780750)
 
 - [The Thermodynamic Limits of Universal Computation and the Impossibility of Algorithmic Twins](https://doi.org/10.5281/zenodo.21158326)
