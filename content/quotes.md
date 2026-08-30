@@ -20,3 +20,9 @@ John B. Goodenough, Nobel Prize in Chemistry 2019
 
 Simon Veil
 
+---
+
+*Quand j'ai voulu me restreindre, je suis tombé dans l'obscurité; j'ai préféré passer pour un peu bavard.*
+
+Henri Poincaré, Analysis situs
+

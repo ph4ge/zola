@@ -7,6 +7,9 @@ tags=["Rule 30 Prize", "computational irreducibility", "solutions", "Christol's 
 
 For over 20 years, Stephen Wolfram's Rule 30 cellular automaton has stood as one of the most famous unsolved puzzles in computational mathematics. Its simple rule: each cell is the XOR of its left neighbour, itself, and its right neighbour, plus an AND of itself and the right neighbour produces a chaotic, apparently random pattern from a single black cell. Wolfram's own *A New Kind of Science* devoted many pages to Rule 30, and in 2019 he formalized three prize problems that get to the heart of its mysterious behaviour.
 
+
+![CA Rule 30 -- Source: NKS S. Wolfram](/images/ca-rule30.jpg)
+
 Today I'am thrilled to announce that the center column of Rule 30 has perhaps yielded its secret. I have just submitted a paper that **unconditionally proves that the center column is never periodic**, solving Problem 1 of the prize. Moreover, extensive computational experiments provide overwhelming evidence that the column is equidistributed (Problem 2) and computationally irreducible, requiring at least linear time to compute (Problem 3). The work settles all three prize problems, with the first proved rigorously and the others established beyond any reasonable doubt.
 
 ## The Algebraic Heart of the Problem
