@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta itemprop="name" content="" />
+  <meta itemprop="description" content="" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="https://tolgatopal.info/apple-touch-icon.png"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="https://tolgatopal.info/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="https://tolgatopal.info/favicon-16x16.png" />
+  <link rel="shortcut icon" href="https://tolgatopal.info/favicon.ico" />
+  <link rel="stylesheet" href="https://tolgatopal.info/style.css"/>
+
+  <!-- KaTeX CSS (latest) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" integrity="sha384-nB0miv6/jRmo5UMMR1wu3Gz6NLsoTkbqJghGIsx//Rlm+ZU03BU6SQNC66uf4l5+" crossorigin="anonymous">
+
+  
+  <title>Bridging Categorical Deep Learning and Trace Theory: A Foundation for Distributed AI</title>
+  
+
+  
+</head>
+
+<body id="page">
+
+  
+<header id="site-header" class="animated slideInUp faster">
+  <div class="hdr-wrapper section-inner">
+    <div class="hdr-left">
+      <div class="site-branding">
+        <a href="https:&#x2F;&#x2F;tolgatopal.info"></a>
+      </div>
+      <nav class="site-nav hide-in-mobile">
+            
+        
+        <a href="https://tolgatopal.info/posts">Posts</a>
+        
+        <a href="https://tolgatopal.info/about">About</a>
+        
+        <a href="https://tolgatopal.info/publications">Publications</a>
+        
+        <a href="https://tolgatopal.info/projects">Projects</a>
+        
+        <a href="https://tolgatopal.info/certifications">Certifications</a>
+        
+        <a href="https://tolgatopal.info/quotes">Quotes</a>
+        
+        <a href="https://tolgatopal.info/license-ccl">CCL</a>
+        
+      </nav>
+    </div>
+    <div class="hdr-right hdr-icons">
+      <span class="hdr-social hide-in-mobile">
+        
+
+<a href="mailto:root@tolgatopal.info" target="_blank" rel="noopener me"
+   title="email">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+  
+</a>
+
+<a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;tolga-topal-tot&#x2F;" target="_blank" rel="noopener me"
+   title="linkedin">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+  
+</a>
+
+<a href="https:&#x2F;&#x2F;github.com&#x2F;ph4ge" target="_blank" rel="noopener me"
+   title="github">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+  
+</a>
+
+<a href="https:&#x2F;&#x2F;orcid.org&#x2F;0000-0002-7764-706X" target="_blank" rel="noopener me"
+   title="orcid">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.025-5.325 5.025h-3.919V7.416zm1.444 1.303v7.444h2.297c3.272 0 4.022-2.484 4.022-3.722 0-2.016-1.284-3.722-4.097-3.722h-2.222z"/></svg>
+  
+</a>
+
+<a href="https:&#x2F;&#x2F;x.com&#x2F;tolga_plato" target="_blank" rel="noopener me"
+   title="twitter_x">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+  
+</a>
+
+
+      </span>
+      <button id="menu-btn" class="hdr-btn" title="Menu">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="feather feather-menu"
+        >
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+<div id="mobile-menu" class="animated fast">
+  <ul>
+    
+    <li><a href="https://tolgatopal.info/posts">Posts</a></li>
+    
+    <li><a href="https://tolgatopal.info/about">About</a></li>
+    
+    <li><a href="https://tolgatopal.info/publications">Publications</a></li>
+    
+    <li><a href="https://tolgatopal.info/projects">Projects</a></li>
+    
+    <li><a href="https://tolgatopal.info/certifications">Certifications</a></li>
+    
+    <li><a href="https://tolgatopal.info/quotes">Quotes</a></li>
+    
+    <li><a href="https://tolgatopal.info/license-ccl">CCL</a></li>
+    
+  </ul>
+</div>
+
+  
+  
+
+  
+  
+<main class="site-main section-inner animated fadeIn faster">
+  <article class="thin">
+	<header class="post-header">
+	  <div class="post-meta">
+		
+		<span>Aug 22, 2026</span>
+		<small> - 
+<span class="reading-time" title="Estimated read time">
+  
+  5 min read
+  
+</span>
+</small>
+		
+            
+	  </div>
+	  <h1>Bridging Categorical Deep Learning and Trace Theory: A Foundation for Distributed AI</h1>
+	</header>
+
+	<div class="content">
+        
+	  <h1 id="two-sentences-summary">Two Sentences Summary</h1>
+<p>In this post, we share a possible extension to Abbott &amp; Zardini's categorical formalization of deep learning. More specifically, we propose to connect the internal broadcasting formalism with the external concurrency of Diekert &amp; Muscholl's Trace Theory to formalize distributed training and multi-agent systems.</p>
+<h1 id="introduction">Introduction</h1>
+<p>From the early <a href="https://proceedings.neurips.cc/paper_files/paper/2012/file/6aca97005c68f1206823815f66102863-Paper.pdf">Large Scale Distributed Deep Networks</a>, deep learning (DL) is fundamentally parallel. Yet, our mathematical descriptions of it are often sequential or ad-hoc. The recent paper by <a href="https://doi.org/10.48550/arXiv.2604.07242">Abbott &amp; Zardini</a> takes a giant leap forward by using category theory to formalize the <em>internal</em> parallelism of a single model. Specifically, they identify <strong>broadcasting</strong> as a core mechanism in DL programming frameworks. Indeed, it is parallelized computing that gives DL its ability to cut through massive datasets, leaving classical statistical learning theory <a href="https://doi.org/10.48550/arXiv.1710.09553">struggling to keep pace</a>.</p>
+<p>However, as I dug deeper, I realized that the formalism stops at the boundaries of a single model. It describes a single model perfectly, but what happens when we have a <em>society</em> of brains? What about distributed training, federated learning, or multi-agent systems?</p>
+<p>This is where <strong>Trace Theory</strong>—beautifully summarized by <a href="https://www2.informatik.uni-stuttgart.de/fmi/ti/veroeffentlichungen/pdffiles/DiekertMuscholl2011.pdf">Diekert &amp; Muscholl (2011)</a>—might come into play. I believe it provides the exact missing layer to extend Abbott &amp; Zardini's work into the realm of concurrent, distributed, and interactive AI systems.</p>
+<hr />
+<h2 id="the-view-from-abbott-zardini-the-internal-view">The View from Abbott &amp; Zardini (The Internal View)</h2>
+<p>The Abbott &amp; Zardini paper introduces new categorical structures—<strong>axis-stride</strong> and <strong>array-broadcasted</strong>—to describe how a computation defined on a single vector extends to every row of a matrix in parallel.</p>
+<p>In their framework:</p>
+<ul>
+<li><strong>Morphisms</strong> represent tensor operations,</li>
+<li><strong>Composition</strong> represents sequential layers,</li>
+<li><strong>Categorical products</strong> represent parallel constructs.</li>
+</ul>
+<p>This formalism elegantly captures the "physics" of a deep learning model. It tells us <em>how</em> a computation is parallelized across tensor axes. Crucially, it identifies <strong>broadcasting</strong> as the mathematical prerequisite for parallelized computations and especially well-suited for GPU kernels.</p>
+<p>But it is centralized. It seems to assume a single, static computation graph on a single device (or a homogeneous cluster abstracted as one).</p>
+<hr />
+<h2 id="the-view-from-diekert-muscholl-the-external-view">The View from Diekert &amp; Muscholl (The External View)</h2>
+<p>Trace theory (introduced by Mazurkiewicz in 1977), as outlined in <a href="https://www2.informatik.uni-stuttgart.de/fmi/ti/veroeffentlichungen/pdffiles/DiekertMuscholl2011.pdf">Diekert &amp; Muscholl (2011)</a>, approaches concurrency from a different angle. It starts with an <strong>alphabet of atomic actions</strong> and defines an <strong>independence relation</strong> (I). Two sequences of actions are considered equivalent (i.e., they belong to the same trace) if they can be transformed into each other by swapping independent actions:</p>
+<span class="math math-inline">ab = ba \quad \text{for } (a, b) \in I</span>
+<p>This simple rule generates <strong>free partially commutative monoids</strong>. Here are the key takeaways from the survey:</p>
+<ol>
+<li><strong>Dependence Graphs</strong>: Traces are visualized as directed acyclic graphs (DAGs) where edges represent dependencies (the complement of independence). If two operations don't have a path between them, they are concurrent.</li>
+<li><strong>(Foata) Normal Form</strong>: This provides a canonical representation of a trace in terms of maximal parallel steps (e.g., ({a,d};{b,c};{a,e};{f})).</li>
+<li><strong>Asynchronous Automata</strong>: Zielonka's theorem proves that any recognizable trace language can be accepted by a distributed automaton with finite-state processes synchronizing over shared variables (CREW, EREW models).</li>
+<li><strong>Regular vs. Rational Languages</strong>: A fascinating result: while Kleene's theorem holds for words, it fails for traces. Rational expressions like ((ab)^*) (with (a) and (b) independent) represent non-regular languages (equality of counts). Recognizability requires the star operation to be restricted to <em>connected</em> languages. Finally, because it's very close to the language of words, one may expect to re-use/transfer the results of that body of work.</li>
+</ol>
+<hr />
+<h2 id="the-bridge-the-internal-and-external-meet">The Bridge: The Internal and External Meet</h2>
+<p>Here is my core thesis: <strong>Abbott &amp; Zardini gives us the "letters" (the tensor kernels), and Trace Theory gives us the "schedules" (the communication and concurrency).</strong></p>
+<p>We can visualize how this forms a unified stack for distributed training:</p>
+<h3 id="1-the-node-traced-morphism">1. The Node (Traced Morphism)</h3>
+<p>Each GPU or client in a distributed system is represented using the Abbott &amp; Zardini formalism. It defines the local model, the forward pass, and the backward pass. To make it stateful (i.e., an optimizer with momentum), we wrap it in a <strong>Trace</strong> (categorical trace, not trace theory yet—though they are related). This gives us a morphism <span class="math math-inline">F: X \otimes W \rightarrow Y \otimes W</span>
+, where <span class="math math-inline">W</span>
+ represents the persistent weights.</p>
+<h3 id="2-the-communication-trace-monoid">2. The Communication (Trace Monoid)</h3>
+<p>Now, consider the communication actions:</p>
+<ul>
+<li>(a): Compute gradient on Node 1</li>
+<li>(b): Compute gradient on Node 2</li>
+<li>(c): All-Reduce over the network</li>
+</ul>
+<p>In a synchronous setup, (a) and (b) are <strong>independent</strong> (they can happen in any order). However, (a) and (c) are <strong>dependent</strong> because the All-Reduce must wait for the local gradient computation to finish.</p>
+<p>Using Trace Theory, we can model the global training step as a trace:
+<span class="math math-inline">t = (a \parallel b) \rightarrow c \rightarrow (d \parallel e)</span>
+.
+This directly maps to the <a href="https://www.mat.univie.ac.at/~slc/books/cartfoa.html">Foata normal form</a>! The maximal parallel execution of a distributed training step is precisely a trace.</p>
+<h3 id="3-federated-learning-as-a-trace-automaton">3. Federated Learning as a Trace Automaton</h3>
+<p>Federated Learning is particularly interesting. Different clients have different data distributions. They compute locally (<span class="math math-inline">a_i</span>
+) and then aggregate (FedAvg, (agg)).</p>
+<p>If the aggregation is synchronous, the system is a finite trace. But if we consider asynchronous updates (where clients participate at different times), we enter the realm of <strong>infinite traces</strong> or <strong>rational trace languages</strong>.</p>
+<p>Using the CREW (Concurrent-Read Exclusive-Write) model from trace theory:</p>
+<ul>
+<li>Multiple clients can <em>read</em> the global model simultaneously.</li>
+<li>The <em>write</em> (update) must be exclusive or follow a conflict-free schedule.</li>
+</ul>
+<p>Zielonka's theorem—stating that recognizable trace languages correspond to asynchronous automata—suggests that we can rigorously design a distributed training algorithm where the convergence properties are <em>independent</em> of the specific scheduling of independent operations.</p>
+<hr />
+<h2 id="why-this-matters-for-multi-agent-systems">Why This Matters for Multi-Agent Systems</h2>
+<p>This unification isn't just for training. If we extend this to multi-agent systems:</p>
+<ul>
+<li>Each agent is a <strong>traced morphism</strong> (stateful).</li>
+<li>The interaction between agents (e.g., message passing, negotiation) defines the <strong>independence alphabet</strong>.</li>
+<li>An agent's strategic decision (e.g., policy distribution) can be mapped to a <strong>game sheaf</strong> on top of this trace structure.</li>
+</ul>
+<p>The trace monoid captures <em>what</em> can happen in parallel. The sheaf or game-theoretic layer captures <em>why</em> an agent chooses a specific action within that concurrent space.</p>
+<hr />
+<h2 id="practical-implications">Practical Implications</h2>
+<ol>
+<li><strong>Formal Verification</strong>: We can use recognizable trace languages to verify properties of distributed training algorithms (e.g., "Does this asynchronous schedule guarantee global gradient descent?").</li>
+<li><strong>Automatic Kernel Generation</strong>: The <a href="https://zbmath.org/?q=ut%3AFoata+normal+forms">Foata normal form</a> of a trace gives you the optimal parallel schedule of communication and computation. A compiler could automatically derive the communication schedule from a high-level description of a distributed model.</li>
+<li><strong>Decidability</strong>: Trace theory provides clear boundaries. For example, inclusion and equality of rational trace languages are undecidable, but for transitive independence alphabets (free products of free monoids), they are decidable. This tells us exactly which distributed topologies are "safe" to analyze automatically.</li>
+</ol>
+<hr />
+<h2 id="what-s-next">What's Next?</h2>
+<p>I sketched out this idea over the past few days, and it feels like a promising formal foundation. The Abbott &amp; Zardini paper gives us the <em>microscope</em> (the internals of a model). Mazurkiewicz's trace theory—through Diekert &amp; Muscholl's reference—gives us the <em>telescope</em> (the concurrency between models).</p>
+<p>The next step for someone (maybe you) would be to:</p>
+<ol>
+<li>Define a functor from the Abbott &amp; Zardini tensor categories into a trace monoid.</li>
+<li>Implement a small prototype in <code>pyncd</code> that can output the Foata normal form of a distributed model graph.</li>
+<li>Explore the connection between asynchronous automata and gradient synchronization protocols.</li>
+</ol>
+<p>Formalizing distributed AI is a hard problem, but with tools like category theory and trace theory, I think we may have a solid, right language for it.</p>
+<hr />
+<p>If you found this useful, consider <a href="https://buymeacoffee.com/ixidor">supporting my work</a>.</p>
+
+	</div>
+	<hr class="post-end">
+	<footer class="post-info">
+    
+	  <p>
+		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+		
+		
+		<span class="tag"><a href="https://tolgatopal.info/tags/deep-learning/">deep-learning</a></span>
+		
+		<span class="tag"><a href="https://tolgatopal.info/tags/category-theory/">category-theory</a></span>
+		
+		<span class="tag"><a href="https://tolgatopal.info/tags/trace-theory/">trace-theory</a></span>
+		
+		<span class="tag"><a href="https://tolgatopal.info/tags/distributed-systems/">distributed-systems</a></span>
+		
+		<span class="tag"><a href="https://tolgatopal.info/tags/federated-learning/">federated-learning</a></span>
+		
+		<span class="tag"><a href="https://tolgatopal.info/tags/concurrency/">concurrency</a></span>
+		
+		<span class="tag"><a href="https://tolgatopal.info/tags/deepseek/">DeepSeek</a></span>
+		
+		
+    </p>
+    
+    <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>1330 Words</p>
+    
+    <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2026-08-22</p>
+    
+	</footer>
+  </article>
+    
+  
+  <div class="post-nav thin">
+	
+	
+  </div>
+
+  
+</main>
+
+    </div>
+    
+  
+
+
+
+<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+  <p>&copy; 2026 <a href="https:&#x2F;&#x2F;tolgatopal.info">Tolga Topal</a> &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a> &#183;&#183; <a href="https://emergentcognition.org/license" target="_blank" rel="noopener">CCL </a> <a href="https://buymeacoffee.com/ixidor" target="_blank" rel="noopener" title="Support this inquiry"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" style="vertical-align: middle; margin-left: 2px; margin-right: 4px;"><path d="M19.5 4h-15C3.67 4 3 4.67 3 5.5v13c0 .83.67 1.5 1.5 1.5h15c.83 0 1.5-.67 1.5-1.5v-13c0-.83-.67-1.5-1.5-1.5zm-1.5 13h-12V8h12v9z" fill="#FFDD00"/><circle cx="12" cy="12" r="3" fill="#E5A848"/></svg>Support this inquiry</a></p>
+  <p>Made with <a href="https://www.getzola.org" target="_blank" rel="noopener">Zola</a> &#183; Theme <a href="https://github.com/VersBinarii/hermit_zola" target="_blank" rel="noopener">Hermit_Zola</a>
+	
+  </p>
+</footer>
+
+
+
+
+  </div>
+
+  <!-- Main theme script -->
+  <script src="https://tolgatopal.info/js/main.js"></script>
+
+  <!-- KaTeX JS (latest) with auto-render -->
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" integrity="sha384-7zkQWkzuo3B5mTepMUcHkMB5jZaolc2xDwL6VFqjFALcbeS9Ggm/Yr2r3Dy4lfFg" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" integrity="sha384-hCXGrW6PitphwbvRjP8XhBNVxWvCoP+9k+g8+yFyP2iFJp1j8c6KJsn6n2p7En9D" crossorigin="anonymous"
+    onload="renderMathInElement(document.body, {
+      delimiters: [
+        {left: '$$', right: '$$', display: true},
+        {left: '$', right: '$', display: false},
+        {left: '\\[', right: '\\]', display: true},
+        {left: '\\(', right: '\\)', display: false}
+      ],
+      throwOnError: false
+    });">
+  </script>
+
+  <!-- Optional: fallback for elements with class "math" (if you prefer that method) -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // If auto-render doesn't catch everything, this will render .math elements too.
+      if (typeof katex !== 'undefined') {
+        for (let el of document.getElementsByClassName('math')) {
+          try {
+            katex.render(el.textContent, el, {
+              throwOnError: false,
+              displayMode: el.classList.contains('math-display')
+            });
+          } catch(e) {
+            // ignore errors
+          }
+        }
+      }
+    });
+  </script>
+
+  <!-- Highlight.js and other scripts (unchanged) -->
+  
+    <link href="https://unpkg.com/highlightjs-badge/highlightjs/styles/vs2015.css" rel="stylesheet">
+    <script src="https://unpkg.com/highlightjs-badge/highlightjs/highlight.pack.js"></script>
+    <script src="https://unpkg.com/highlightjs-badge/highlightjs-badge.min.js"></script>
+    <script>
+      var pres = document.querySelectorAll("pre>code");
+      for (var i = 0; i < pres.length; i++) {
+        hljs.highlightBlock(pres[i]);
+      }
+    </script>
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
+      <script>
+        var options = {
+          copyIconClass: "gg-clipboard",
+          checkIconClass: "gg-check"
+        };
+        window.highlightJsBadge(options);
+      </script>
+    
+  
+
+  
+
+  <script src="https://tolgatopal.info/js/main.js"></script>
+
+  
+  
+
+  
+
+</body>
+</html>
