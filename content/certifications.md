@@ -165,3 +165,8 @@ title="Certifications"
 | 158  | Mastering DeepSeek: From Architecture to Application         |                         Coursera                          | coursera.org/verify/F128EWUXJQRH                             |
 | 159  | Hands-on DeepSeek                                            |                         Coursera                          | coursera.org/verify/2Y5PBEQAE6V6                             |
 | 160  | Generative AI Engineering and Fine-Tuning Transformers       |                         Coursera                          | coursera.org/verify/PNFH4VRPGA35                             |
+| 161  | Fundamental of Reinforcement Training                        |                         Coursera                          | coursera.org/verify/RCFAP3N22W98                             |
+| 162  | Gen AI Using Hugging Face Training                           |                         Coursera                          | coursera.org/verify/MGOK3AN0ZSNV                             |
+| 163  | Intro to Mistral AI                                          |                         Coursera                          | coursera.org/verify/FEUJCDGZR0XM                             |
+| 164  | Reinforcement Learning                                       |                         Coursera                          | coursera.org/verify/IKFIH1DJDZZR                             |
+| 165  | Future of AI                                                 |                         BlueDot                           | bluedot.org/certification?id=rec859c3f6GMM4k03               |
