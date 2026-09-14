@@ -3,7 +3,7 @@ title="The Pixel Boundary of Fluid Reality: Navier–Stokes and the Limits of Ef
 date=2026-09-14
 draft=false
 [taxonomies]
-tags=["blog", "Millenium", "Navier-Stokes", "ai", "Mathematics"]
+tags=["blog", "Millennium", "Navier-Stokes", "ai", "Mathematics"]
 +++
 
 
