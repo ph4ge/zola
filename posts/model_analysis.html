@@ -1,0 +1,2823 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mistral Model Analysis</title>
+        <style>
+            body {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                line-height: 1.6;
+                color: #333;
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 20px;
+                background-color: #f9f9f9;
+            }
+            h1, h2, h3 {
+                color: #2c3e50;
+            }
+            .container {
+                background-color: white;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            }
+            .plot-container {
+                margin: 30px 0;
+                text-align: center;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin: 20px 0;
+            }
+            th, td {
+                padding: 12px;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+            }
+            th {
+                background-color: #3498db;
+                color: white;
+            }
+            tr:hover {background-color: #f5f5f5;}
+            .summary {
+                background-color: #e8f4fc;
+                padding: 15px;
+                border-radius: 5px;
+                margin: 20px 0;
+            }
+            .download-link {
+                display: inline-block;
+                margin: 20px 0;
+                padding: 10px 15px;
+                background-color: #2ecc71;
+                color: white;
+                text-decoration: none;
+                border-radius: 4px;
+            }
+            .download-link:hover {
+                background-color: #27ae60;
+            }
+            .group-header {
+                background-color: #f0f8ff;
+                font-weight: bold;
+                padding: 8px;
+                margin-top: 20px;
+            }
+            .group-description {
+                font-style: italic;
+                color: #666;
+                margin-bottom: 10px;
+            }
+            .note {
+                background-color: #fff3cd;
+                padding: 15px;
+                border-radius: 5px;
+                margin: 20px 0;
+                border-left: 4px solid #ffd700;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Mistral Model Analysis</h1>
+
+            <div class="summary">
+                <h2>Summary</h2>
+                <p>This analysis presents an overview of 68 Mistral AI models and their capabilities.
+                The data is up-to-date as of May 17, 2026.</p>
+                <p><strong>Note:</strong> The capability scores used for sorting are not measures of the models' intrinsic capabilities.
+                They are solely used to rank models within their capability groups for better organization in this analysis.</p>
+                <a href="mistral-modelcards-data.json" class="download-link" download>Download JSON Data</a>
+            </div>
+
+            <div class="note">
+                <h3>Group Descriptions</h3>
+                <p>Models are grouped based on their primary capabilities:</p>
+                <ul>
+                    <li><strong>Transcription:</strong> Models specialized in converting audio to text</li>
+                    <li><strong>Speech:</strong> Models specialized in text-to-speech conversion</li>
+                    <li><strong>Audio Understanding:</strong> Models that understand audio content beyond transcription</li>
+                    <li><strong>Vision:</strong> Models with image and video processing capabilities</li>
+                    <li><strong>Chat:</strong> General purpose chat and conversation models</li>
+                    <li><strong>Reasoning:</strong> Models with advanced reasoning and problem-solving capabilities</li>
+                    <li><strong>Code Completion:</strong> Models specialized in code generation and completion</li>
+                    <li><strong>Fine Tuning:</strong> Models that can be fine-tuned for specific tasks</li>
+                    <li><strong>Classification:</strong> Models specialized in categorizing and moderating content</li>
+                    <li><strong>Other:</strong> Models with capabilities that don't fit into the other groups</li>
+                </ul>
+            </div>
+
+            <h2>Models Grouped by Capabilities (Logical Flow)</h2>
+            
+            <div class="group-header">Transcription Models</div>
+            <div class="group-description">Models specialized in converting audio to text</div>
+            <table class="data">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Capability Score</th>
+                    <th>Group Rank</th>
+                </tr>
+            
+        <tr>
+            <td>voxtral-mini-transcribe-realtime-2602</td>
+            <td>voxtral-mini-transcribe-realtime-2602</td>
+            <td>A realtime transcription model released in January 2026</td>
+            <td>1.8</td>
+            <td>1</td>
+        </tr>
+        
+        <tr>
+            <td>voxtral-mini-realtime-2602</td>
+            <td>voxtral-mini-transcribe-realtime-2602</td>
+            <td>A realtime transcription model released in January 2026</td>
+            <td>1.8</td>
+            <td>1</td>
+        </tr>
+        
+        <tr>
+            <td>voxtral-mini-realtime-latest</td>
+            <td>voxtral-mini-transcribe-realtime-2602</td>
+            <td>A realtime transcription model released in January 2026</td>
+            <td>1.8</td>
+            <td>1</td>
+        </tr>
+        
+        <tr>
+            <td>voxtral-mini-2602</td>
+            <td>voxtral-mini-2602</td>
+            <td>Official voxtral-mini-2602 Mistral AI model</td>
+            <td>1.5</td>
+            <td>2</td>
+        </tr>
+        
+        <tr>
+            <td>voxtral-mini-latest</td>
+            <td>voxtral-mini-2602</td>
+            <td>Official voxtral-mini-2602 Mistral AI model</td>
+            <td>1.5</td>
+            <td>2</td>
+        </tr>
+        
+        <tr>
+            <td>voxtral-mini-transcribe-2507</td>
+            <td>voxtral-mini-transcribe-2507</td>
+            <td>A mini transcription model released in July 2025</td>
+            <td>1.5</td>
+            <td>2</td>
+        </tr>
+        
+        <tr>
+            <td>voxtral-mini-2507</td>
+            <td>voxtral-mini-transcribe-2507</td>
+            <td>A mini transcription model released in July 2025</td>
+            <td>1.5</td>
+            <td>2</td>
+        </tr>
+        </table>
+            <div class="group-header">Speech Models</div>
+            <div class="group-description">Models specialized in text-to-speech conversion</div>
+            <table class="data">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Capability Score</th>
+                    <th>Group Rank</th>
+                </tr>
+            
+        <tr>
+            <td>voxtral-mini-tts-2603</td>
+            <td>voxtral-mini-tts-2603</td>
+            <td>TTS v1 final checkpoint</td>
+            <td>4.5</td>
+            <td>1</td>
+        </tr>
+        
+        <tr>
+            <td>voxtral-mini-tts-latest</td>
+            <td>voxtral-mini-tts-2603</td>
+            <td>TTS v1 final checkpoint</td>
+            <td>4.5</td>
+            <td>1</td>
+        </tr>
+        </table>
+            <div class="group-header">Audio Understanding Models</div>
+            <div class="group-description">Models that understand audio content beyond transcription</div>
+            <table class="data">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Capability Score</th>
+                    <th>Group Rank</th>
+                </tr>
+            
+        <tr>
+            <td>voxtral-small-2507</td>
+            <td>voxtral-small-2507</td>
+            <td>A small audio understanding model released in July 2025</td>
+            <td>3.7</td>
+            <td>1</td>
+        </tr>
+        
+        <tr>
+            <td>voxtral-small-latest</td>
+            <td>voxtral-small-2507</td>
+            <td>A small audio understanding model released in July 2025</td>
+            <td>3.7</td>
+            <td>1</td>
+        </tr>
+        
+        <tr>
+            <td>voxtral-mini-2507</td>
+            <td>voxtral-mini-2507</td>
+            <td>A mini audio understanding model released in July 2025</td>
+            <td>2.2</td>
+            <td>2</td>
+        </tr>
+        
+        <tr>
+            <td>voxtral-mini-latest</td>
+            <td>voxtral-mini-2507</td>
+            <td>A mini audio understanding model released in July 2025</td>
+            <td>2.2</td>
+            <td>2</td>
+        </tr>
+        </table>
+            <div class="group-header">Vision Models</div>
+            <div class="group-description">Models with image and video processing capabilities</div>
+            <table class="data">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Capability Score</th>
+                    <th>Group Rank</th>
+                </tr>
+            
+        <tr>
+            <td>magistral-medium-2509</td>
+            <td>magistral-medium-2509</td>
+            <td>Our frontier-class reasoning model release candidate September 2025.</td>
+            <td>7.5</td>
+            <td>1</td>
+        </tr>
+        
+        <tr>
+            <td>magistral-medium-latest</td>
+            <td>magistral-medium-2509</td>
+            <td>Our frontier-class reasoning model release candidate September 2025.</td>
+            <td>7.5</td>
+            <td>1</td>
+        </tr>
+        
+        <tr>
+            <td>magistral-small-2509</td>
+            <td>magistral-small-2509</td>
+            <td>Our efficient reasoning model released September 2025.</td>
+            <td>7.5</td>
+            <td>1</td>
+        </tr>
+        
+        <tr>
+            <td>mistral-small-2603</td>
+            <td>mistral-small-2603</td>
+            <td>Mistral Small 4.</td>
+            <td>6.0</td>
+            <td>2</td>
+        </tr>
+        
+        <tr>
+            <td>mistral-small-latest</td>
+            <td>mistral-small-2603</td>
+            <td>Mistral Small 4.</td>
+            <td>6.0</td>
+            <td>2</td>
+        </tr>
+        
+        <tr>
+            <td>mistral-vibe-cli-fast</td>
+            <td>mistral-small-2603</td>
+            <td>Mistral Small 4.</td>
+            <td>6.0</td>
+            <td>2</td>
+        </tr>
+        
+        <tr>
+            <td>magistral-small-latest</td>
+            <td>mistral-small-2603</td>
+            <td>Mistral Small 4.</td>
+            <td>6.0</td>
+            <td>2</td>
+        </tr>
+        
+        <tr>
+            <td>mistral-medium-3-5</td>
+            <td>mistral-medium-3-5</td>
+            <td>Official mistral-medium-3-5 Mistral AI model</td>
+            <td>6.0</td>
+            <td>2</td>
+        </tr>
+        
+        <tr>
+            <td>mistral-medium-3.5</td>
+            <td>mistral-medium-3-5</td>
+            <td>Official mistral-medium-3-5 Mistral AI model</td>
+            <td>6.0</td>
+            <td>2</td>
+        </tr>
+        
+        <tr>
+            <td>mistral-medium-3</td>
+            <td>mistral-medium-3-5</td>
+            <td>Official mistral-medium-3-5 Mistral AI model</td>
+            <td>6.0</td>
+            <td>2</td>
+        </tr>
+        
+        <tr>
+            <td>mistral-medium-2604</td>
+            <td>mistral-medium-3-5</td>
+            <td>Official mistral-medium-3-5 Mistral AI model</td>
+            <td>6.0</td>
+            <td>2</td>
+        </tr>
+        
+        <tr>
+            <td>mistral-medium-c21211-r0-75</td>
+            <td>mistral-medium-3-5</td>
+            <td>Official mistral-medium-3-5 Mistral AI model</td>
+            <td>6.0</td>
+            <td>2</td>
+        </tr>
+        
+        <tr>
+            <td>mistral-vibe-cli-latest</td>
+            <td>mistral-medium-3-5</td>
+            <td>Official mistral-medium-3-5 Mistral AI model</td>
+            <td>6.0</td>
+            <td>2</td>
+        </tr>
+        
+        <tr>
+            <td>mistral-medium-2505</td>
+            <td>mistral-medium-2505</td>
+            <td>Our frontier-class multimodal model released May 2025.</td>
+            <td>5.5</td>
+            <td>3</td>
+        </tr>
+        
+        <tr>
+            <td>mistral-medium-2508</td>
+            <td>mistral-medium-2508</td>
+            <td>Update on Mistral Medium 3 with improved capabilities.</td>
+            <td>5.5</td>
+            <td>3</td>
+        </tr>
+        
+        <tr>
+            <td>mistral-medium-latest</td>
+            <td>mistral-medium-2508</td>
+            <td>Update on Mistral Medium 3 with improved capabilities.</td>
+            <td>5.5</td>
+            <td>3</td>
+        </tr>
+        
+        <tr>
+            <td>mistral-medium</td>
+            <td>mistral-medium-2508</td>
+            <td>Update on Mistral Medium 3 with improved capabilities.</td>
+            <td>5.5</td>
+            <td>3</td>
+        </tr>
+        
+        <tr>
+            <td>mistral-vibe-cli-with-tools</td>
+            <td>mistral-medium-2508</td>
+            <td>Update on Mistral Medium 3 with improved capabilities.</td>
+            <td>5.5</td>
+            <td>3</td>
+        </tr>
+        
+        <tr>
+            <td>mistral-large-2512</td>
+            <td>mistral-large-2512</td>
+            <td>Official mistral-large-2512 Mistral AI model</td>
+            <td>5.5</td>
+            <td>3</td>
+        </tr>
+        
+        <tr>
+            <td>mistral-large-latest</td>
+            <td>mistral-large-2512</td>
+            <td>Official mistral-large-2512 Mistral AI model</td>
+            <td>5.5</td>
+            <td>3</td>
+        </tr>
+        
+        <tr>
+            <td>mistral-large-2512</td>
+            <td>mistral-large-2512</td>
+            <td>Official mistral-large-2512 Mistral AI model</td>
+            <td>5.5</td>
+            <td>3</td>
+        </tr>
+        
+        <tr>
+            <td>mistral-large-latest</td>
+            <td>mistral-large-2512</td>
+            <td>Official mistral-large-2512 Mistral AI model</td>
+            <td>5.5</td>
+            <td>3</td>
+        </tr>
+        
+        <tr>
+            <td>ministral-3b-2512</td>
+            <td>ministral-3b-2512</td>
+            <td>Ministral 3 (a.k.a. Tinystral) 3B Instruct.</td>
+            <td>5.5</td>
+            <td>3</td>
+        </tr>
+        
+        <tr>
+            <td>ministral-3b-latest</td>
+            <td>ministral-3b-2512</td>
+            <td>Ministral 3 (a.k.a. Tinystral) 3B Instruct.</td>
+            <td>5.5</td>
+            <td>3</td>
+        </tr>
+        
+        <tr>
+            <td>ministral-8b-2512</td>
+            <td>ministral-8b-2512</td>
+            <td>Ministral 3 (a.k.a. Tinystral) 8B Instruct.</td>
+            <td>5.5</td>
+            <td>3</td>
+        </tr>
+        
+        <tr>
+            <td>ministral-8b-latest</td>
+            <td>ministral-8b-2512</td>
+            <td>Ministral 3 (a.k.a. Tinystral) 8B Instruct.</td>
+            <td>5.5</td>
+            <td>3</td>
+        </tr>
+        
+        <tr>
+            <td>ministral-14b-2512</td>
+            <td>ministral-14b-2512</td>
+            <td>Ministral 3 (a.k.a. Tinystral) 14B Instruct.</td>
+            <td>5.5</td>
+            <td>3</td>
+        </tr>
+        
+        <tr>
+            <td>ministral-14b-latest</td>
+            <td>ministral-14b-2512</td>
+            <td>Ministral 3 (a.k.a. Tinystral) 14B Instruct.</td>
+            <td>5.5</td>
+            <td>3</td>
+        </tr>
+        
+        <tr>
+            <td>mistral-ocr-2512</td>
+            <td>mistral-ocr-2512</td>
+            <td>Official mistral-ocr-2512 Mistral AI model</td>
+            <td>4.2</td>
+            <td>4</td>
+        </tr>
+        
+        <tr>
+            <td>mistral-ocr-latest</td>
+            <td>mistral-ocr-2512</td>
+            <td>Official mistral-ocr-2512 Mistral AI model</td>
+            <td>4.2</td>
+            <td>4</td>
+        </tr>
+        
+        <tr>
+            <td>mistral-ocr-2505</td>
+            <td>mistral-ocr-2505</td>
+            <td>Official mistral-ocr-2505 Mistral AI model</td>
+            <td>4.2</td>
+            <td>4</td>
+        </tr>
+        
+        <tr>
+            <td>pixtral-large-2411</td>
+            <td>pixtral-large-2411</td>
+            <td>Official pixtral-large-2411 Mistral AI model</td>
+            <td>4.0</td>
+            <td>5</td>
+        </tr>
+        
+        <tr>
+            <td>pixtral-large-latest</td>
+            <td>pixtral-large-2411</td>
+            <td>Official pixtral-large-2411 Mistral AI model</td>
+            <td>4.0</td>
+            <td>5</td>
+        </tr>
+        
+        <tr>
+            <td>mistral-large-pixtral-2411</td>
+            <td>pixtral-large-2411</td>
+            <td>Official pixtral-large-2411 Mistral AI model</td>
+            <td>4.0</td>
+            <td>5</td>
+        </tr>
+        
+        <tr>
+            <td>mistral-small-2506</td>
+            <td>mistral-small-2506</td>
+            <td>Our latest enterprise-grade small model with the latest version released June 2025.</td>
+            <td>4.0</td>
+            <td>5</td>
+        </tr>
+        </table>
+            <div class="group-header">Chat Models</div>
+            <div class="group-description">General purpose chat and conversation models</div>
+            <table class="data">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Capability Score</th>
+                    <th>Group Rank</th>
+                </tr>
+            
+        <tr>
+            <td>open-mistral-nemo</td>
+            <td>open-mistral-nemo</td>
+            <td>Our best multilingual open source model released July 2024.</td>
+            <td>4.0</td>
+            <td>1</td>
+        </tr>
+        
+        <tr>
+            <td>open-mistral-nemo-2407</td>
+            <td>open-mistral-nemo</td>
+            <td>Our best multilingual open source model released July 2024.</td>
+            <td>4.0</td>
+            <td>1</td>
+        </tr>
+        
+        <tr>
+            <td>mistral-tiny-2407</td>
+            <td>open-mistral-nemo</td>
+            <td>Our best multilingual open source model released July 2024.</td>
+            <td>4.0</td>
+            <td>1</td>
+        </tr>
+        
+        <tr>
+            <td>mistral-tiny-latest</td>
+            <td>open-mistral-nemo</td>
+            <td>Our best multilingual open source model released July 2024.</td>
+            <td>4.0</td>
+            <td>1</td>
+        </tr>
+        
+        <tr>
+            <td>mistral-large-2411</td>
+            <td>mistral-large-2411</td>
+            <td>Our top-tier reasoning model for high-complexity tasks with the lastest version released November 2024.</td>
+            <td>4.0</td>
+            <td>1</td>
+        </tr>
+        
+        <tr>
+            <td>codestral-2508</td>
+            <td>codestral-2508</td>
+            <td>Our cutting-edge language model for coding released August 2025.</td>
+            <td>3.7</td>
+            <td>2</td>
+        </tr>
+        
+        <tr>
+            <td>codestral-latest</td>
+            <td>codestral-2508</td>
+            <td>Our cutting-edge language model for coding released August 2025.</td>
+            <td>3.7</td>
+            <td>2</td>
+        </tr>
+        
+        <tr>
+            <td>devstral-2512</td>
+            <td>devstral-2512</td>
+            <td>Official devstral-2512 Mistral AI model</td>
+            <td>2.5</td>
+            <td>3</td>
+        </tr>
+        
+        <tr>
+            <td>devstral-medium-latest</td>
+            <td>devstral-2512</td>
+            <td>Official devstral-2512 Mistral AI model</td>
+            <td>2.5</td>
+            <td>3</td>
+        </tr>
+        
+        <tr>
+            <td>devstral-latest</td>
+            <td>devstral-2512</td>
+            <td>Official devstral-2512 Mistral AI model</td>
+            <td>2.5</td>
+            <td>3</td>
+        </tr>
+        
+        <tr>
+            <td>devstral-small-2507</td>
+            <td>devstral-small-2507</td>
+            <td>Our small open-source code-agentic model.</td>
+            <td>2.5</td>
+            <td>3</td>
+        </tr>
+        
+        <tr>
+            <td>devstral-medium-2507</td>
+            <td>devstral-medium-2507</td>
+            <td>Our medium code-agentic model.</td>
+            <td>2.5</td>
+            <td>3</td>
+        </tr>
+        </table>
+            <div class="group-header">Classification Models</div>
+            <div class="group-description">Models specialized in categorizing and moderating content</div>
+            <table class="data">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Capability Score</th>
+                    <th>Group Rank</th>
+                </tr>
+            
+        <tr>
+            <td>mistral-moderation-2603</td>
+            <td>mistral-moderation-2603</td>
+            <td>Official mistral-moderation-2603 Mistral AI model</td>
+            <td>2.0</td>
+            <td>1</td>
+        </tr>
+        
+        <tr>
+            <td>mistral-moderation-2411</td>
+            <td>mistral-moderation-2411</td>
+            <td>Official mistral-moderation-2411 Mistral AI model</td>
+            <td>2.0</td>
+            <td>1</td>
+        </tr>
+        
+        <tr>
+            <td>mistral-moderation-latest</td>
+            <td>mistral-moderation-2411</td>
+            <td>Official mistral-moderation-2411 Mistral AI model</td>
+            <td>2.0</td>
+            <td>1</td>
+        </tr>
+        </table>
+            <div class="group-header">Other Models</div>
+            <div class="group-description">Models with capabilities that don't fit into the other groups</div>
+            <table class="data">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Capability Score</th>
+                    <th>Group Rank</th>
+                </tr>
+            
+        <tr>
+            <td>labs-leanstral-2603</td>
+            <td>labs-leanstral-2603</td>
+            <td>A mid & post-trained version of mistral small 4 for Lean</td>
+            <td>6.0</td>
+            <td>1</td>
+        </tr>
+        
+        <tr>
+            <td>mistral-embed-2312</td>
+            <td>mistral-embed-2312</td>
+            <td>Official mistral-embed-2312 Mistral AI model</td>
+            <td>0.0</td>
+            <td>2</td>
+        </tr>
+        
+        <tr>
+            <td>mistral-embed</td>
+            <td>mistral-embed-2312</td>
+            <td>Official mistral-embed-2312 Mistral AI model</td>
+            <td>0.0</td>
+            <td>2</td>
+        </tr>
+        
+        <tr>
+            <td>codestral-embed</td>
+            <td>codestral-embed</td>
+            <td>Official codestral-embed Mistral AI model</td>
+            <td>0.0</td>
+            <td>2</td>
+        </tr>
+        
+        <tr>
+            <td>codestral-embed-2505</td>
+            <td>codestral-embed</td>
+            <td>Official codestral-embed Mistral AI model</td>
+            <td>0.0</td>
+            <td>2</td>
+        </tr>
+        </table>
+
+            <h2>Model Capabilities</h2>
+            <div class="plot-container">
+                <img src="data:image/png;base64,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LFli3377rU2bNs1Gjx5tkyZNstatW9/1b9zP93I/7taxe3h4uPn6+saYfqdpZhajA34AAPBwEUYBAAA3jRo1snbt2tnmzZtt3rx5d50vW7ZstnLlSrt06ZLb1VFRt7Nly5bN+W9ERIT9/vvvble37N+/3+39okbaCw8Pt6pVqz6Uz1KvXj3btGmTLVy40F588cV/nHft2rV27tw5W7RokT3zzDPO9EOHDt1x/uPHj9uVK1fcro767bffzMycEdcWLFhgOXPmtEWLFrkFJVFXGN3uTre7/fbbbw9lBLd/G4EvSs6cOc3MLGHChPf0PaRKlcpatmxpLVu2tMuXL9szzzxjAwcO/Mcw6n6+l6jlaP/+/U5tZpEjFR46dMitxpQpU8YYYc8s8uqq6K+9H/fabgAA4N5xmx4AAHCTLFkymzhxog0cONDq1at31/lq165t4eHhNm7cOLfpo0ePNpfL5YzIF/Xf20fjGzNmjNtjX19fa9y4sS1cuND27t0b4++dOXPmvj9L+/btLUOGDPbGG284QVF0p0+ftiFDhjh/38z9qpgbN27YhAkT7vjet27dssmTJ7vNO3nyZEuTJo2VKFHiru+5ZcsW27Rp0x3fc/HixU5/TGZmW7dutS1btjht+F8kTZr0jrcG3i5t2rRWsWJFmzx5sp04cSLG89G/h3Pnzrk9lyxZMsudO7eFhYX949+4n++latWqlihRIhs7dqxbO06fPt1CQkLcRmXMlSuXbd682W7cuOFM+/rrr+3o0aP/8qnv7l7bDQAA3DuujAIAADHc7Ta56OrVq2eVKlWyvn372uHDh61o0aL27bff2pIlS6xr165OH1FBQUH24osv2oQJEywkJMTKli1rq1atsoMHD8Z4z+HDh9uaNWusdOnS1qZNGytQoICdP3/edu7caStXrrTz58/f1+dImTKlffHFF1a7dm0LCgqyZs2aOUHRzp077dNPP7Xg4GAzMytbtqylTJnSmjdvbq+//rq5XC6bPXv2XW/Zypgxo40YMcIOHz5sefLksXnz5tnu3bttypQpljBhQjMzq1u3ri1atMgaNWpkderUsUOHDtmkSZOsQIECdvny5RjvmTt3bitfvry99tprFhYWZmPGjLHUqVNbr1697utz30mJEiVs3rx51r17d3vqqacsWbJkdw0bx48fb+XLl7fChQtbmzZtLGfO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xo0blTZtWq1Zs0aSFB4ervnz5ytv3ryqUqWKIiIinOm4N1FtFvVfSTp69Ki++uorJU6cWJ06dfJWabFqxYoVeuedd9SmTRtdvXrVmf7555/Lx8dHPXr0UGhoqBcrfLyMGzdOKVOm1NatW3XgwAH99NNPypMnj4KCgrR9+3a35RP/7t1331Xq1Km1atUqrVq1SlOmTFHSpEnVokULXb582dvl4Q7+/PNPvf3229q8ebMk6dChQ2rdurV8fX313XffSYrbv22nT592/j8iIkLXrl1TkyZN1KNHD2f6lStXNGbMGJUoUUITJ070RpmPtUOHDmnu3LkaOXKkM23r1q0KCAjQCy+8oFOnTnmxOs84fvy4JOnmzZsaPXq0MmXKpP/7v//TxYsXJcXtdQxx10cffaTGjRtLkubNm6dkyZI527gLFy7ozz//9GZ5/2jLli2qXr266tatq6NHj0qK3IYvXbpU5cqVU7ly5XTu3DlJrB8PKnq7nT59WocPH1bDhg2d44zw8HCNGDFCwcHBat++vS5cuOClSuO2W7du6ZNPPlG5cuVUr149DR06VFOnTnWe/+6771SlShUVL17cWece1jJLGAVJ0pIlS5QqVSqdOHHCmXb16lVNnz5dvr6+atCgAYHUfYjeRidPntSZM2ecx9evX9e8efOUOHFidenSxZn++uuva8GCBZ4sM1a8//77crlcypEjh06ePCnp70Du888/l7+/v1577TVdunTJm2U+Njp16qTnnnvObdr58+eVK1cuBQcHa+vWrQRS9+jmzZuqV6+eevfu7TZ92bJlSpw4sdq3b6+QkBAvVYc7WbhwoVwul/Lly6dff/3VmX78+HG1adNGCRMm1MqVKyUpTq4HEydOVNWqVRUWFub2u1KlShW1atXKbd5r166pfv36atKkiafLfKydPHlSPj4+8vPz06BBg9ye27p1q5InT66XX37Zbf/qUbNkyRI99dRTmjdvnqTIbeWwYcNUpkwZderUye3AELgfkydPVnBwsObPn6+AgABNmDDBee6jjz7SCy+84ASecUlERISmTJmiQoUKKV26dG4nZ8PDw7V06VJVqFBBBQsW1Pnz571Y6aOhX79+ypkzp/Lnz698+fIpLCzMeS48PFwjR45U+fLl9cILL3BC/Da3bt1y/jtnzhxVqFBBgYGBmjZtmtt8K1euVNWqVfXU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+fLlcrlcSpcunTOcdZT33ntPPj4+Gj16tNP5piTt2LFDjRo1UubMmd1uLUOk6Cvstm3btHfvXmf4VinyDHeePHmcvrauXbuml156ST///HO8ul952rRpKl++vK5evepWd4MGDfTCCy/EmP/ll19WtWrVPFniYyVq9K8os2fP1nPPPacmTZq4/ejOmDFDwcHBeuWVV/Tjjz+6vWbfvn1q3769AgMDtXv3bo/UHVdFdeAeZc6cOeratat69uzpNr1z585OIBU1HHOUP/74Q126dFFgYGCMtsbDN3HiRJ09e9Zt2oABA1SlShWFh4c768Hp06dVtmxZ1a5d25nv999/j7Pb36i6Nm7cqAEDBihz5sxyuVzOlbbS34HUM888o3379jnT4/rVtfHNu+++q6+++spt2u7du5U+fXon9Jciv7MZM2Yof/78btMfxb4RP//8c6VOnVpBQUFyuVyqUaOG2rVrpzp16qhSpUrq0qWLpk2bpldffVUBAQHcMop/1aNHD2XPnl2BgYFKnjy5vvzyS7fnf/75Z6VKlUrly5d3biHyprFjx6py5cpu63dERIRefPFFPfvss5IiT2xFnaAaN26cMmXK9EiPphmbRowYoYwZMzqPz5w5o27dusnlcjnHVjdu3NC3336rokWLqmzZsnfsM5FAyl3UvkaHDh1UoEABZ3r0kfWiuvuIvm8RG/tOPoZH0h9//GHr16+3dOnSOdNq1Khhb731lp0+fdp+++03t/nfeOMNe++996x79+729ddfO9OLFy9uDRs2tDVr1lixYsU8Vn9cN2DAAFu4cKG5XC4zM+vRo4c1btzYypYtax06dLB58+aZmVn69OktderUNnToUJs0aZLVqFHDfvvtN8ubN6/5+PhYeHi4Nz/GPcuTJ499/PHHljhxYrt8+bKZmd28edOyZ89uR48etWPHjllERIQzf6VKlez48eMWEhLirZIfWf3797c5c+aYIk8mmJnZvn37bP369bZr1y47deqUM2/Lli2tbdu2dujQIXvrrbfs8OHDZmYWHh5uv/32m4WHh9v3339vRYsW9cZHiRNeffVV+/jjj83MnGV4xowZ9uGHH9pPP/1kt27dcuYdO3asVa1a1T7++GMbO3asXbp0yczMrl69al9++aUdOHDA1q1bZ4ULF/b8B3mMTJ8+3dauXWspUqRwpkmyS5cu2ZUr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6Ip7d7fjq3PnzjmjG9/ertevX1fbtm2d/YTNmzcrT548j/WtedGX3/Xr16tQoULasGGDrl27pm+++UZNmjRRyZIltXXrVkmRx28rVqzQzz//HGf71ZQkH0OcJcl8fCK/orfeesvat29v33//vV25csUSJ05sZmbHjh2zkJAQS5AggUmy69ev25tvvmmjR482l8tlkrz5EeK06O07ceJE6969u/Xs2dNOnjz5j+0myVwul5mZrVy50n755ReP1PswJUqUyEaPHm379u2zdOnS2fTp0y1//vw2c+ZMK1SokKVJk8Z2795tZmZp06a1J554wrsFP2K2b99uoaGhZmY2fPhw27lzp02cONGaNWtm1atXt++//95ZxpIlS2a5c+e2LFmy2IwZM9yWTV9fX6/UH9dEREQ47fXnn3+amVlgYKA99dRTNnHiRAsJCTE/Pz+7ceOGmZllyJDBkidPHqP9aE/PimrvoUOH2unTp23Dhg22YMEC69u3rx07dszMzD755BN76aWXbMqUKbZjxw6rV6+e7dq1yxIkSGC3bt3yZvn3zN/f38zMDh06ZJcuXbKkSZOamdmePXuscePGduDAAcuaNas3S3zkXbp0yT744ANr06aN7du3z8witxuSLGPGjDZkyBD7+OOPrXXr1vbRRx/ZwoULLUWKFN4tGoijon5vR44cabNnz7aFCxfanj177O2337aJEyfahx9+aDt37jQzs5kzZ1rFihVtzpw5lihRIm+WbSdPnnT+X5EXZNiyZcusadOm1rp1a2fbHB4ebmZmOXLksIULF1rZsmUtZ86ctnnzZitUqJBXao+vIiIinGOtdevW2dy5c+2HH36wgwcPWqpUqWzbtm127Ngxa9u2re3du9d5nZ+fn02ePNnZT8iXL58tWrTInn/+ea98jrggar0bM2aMffHFF1a2bFkrX768+fv7W61ataxr166WOnVqmzZtmoWHh1vatGmtevXqlj9/fvPx8bGIiAhLkCCBlz/FHXgrBcO9Gzx4sNKkSaPvvvvOGQ0qIiJC169fV5cuXVSuXDk1a9ZMFStWVOHChZ0UOT7eOuYpjOTwt2vXrunMmTNq1aqVqlevrkyZMsnlctEnUSz5+eefVbx4cXXo0EEdOnSQy+XSr7/+KinysuVXXnlFSZIk0fr16xUREaFbt26pSZMmWrduXby/Ii82RN/O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lxzvffnll+rcubNCQkLUsWNH+fv769q1azp37pzGjh2rlClTugVSP/30k1asWKFVq1Y5+2Xs797drVu3NH/+fPXq1Uvz5s3TyZMnJUmHDh1SyZIltX37drf9265duzoDc8QXhFFecvvO9r3sfEdERDgLXFTfCIiJkRzgTQ+6XrI+/7slS5boySef1A8//CBJ+v7775UwYUIlTJhQDRs21O+//y5Jmj9/vkaOHMnVo15yp2W5bdu2Kly4cIx5bty4obVr1zrTo34LWR/wb6KC5lOnTqlZs2YqWLCg+vfvr3PnzikiIkL9+/eXy+XSa6+9pp49e+rVV19VQECA0/cGAHfRj0XGjRsnf39/7dq1SwcPHlSxYsXkcrk0fvx4Z56rV6+qXr16at26dZw5iRB9AIzotV6+fFkdO3a8YyC1atUq5xZx3J8ZM2YoderUKlmypJ544gm37kwuXLjgBFI9e/a84+s55rq7O+0H3bx5U2fPnlW9evWczuKjpsdXPgaPi4iIMJfLZWZmR48etcuXL5uke3qtr6+vmZm5XC7z8eHru92CBQvsk08+sfDwcLc29ff3tz/++MMuXbrkTCtQoIBVqFDB1q9fb2FhYWZmFhAQYL6+vhYeHu7x2hH/RUREOOvlt99+a4sWLbK5c+c6y9fdSHJed+rUKYuIiIj1WuMbSZYgQQLr2rWrBQcH27Jly6xu3bo2a9Ys27Rpky1btsyGDh1qhw4dsueff9569uxpCRIksPDwcEuQIIG3y39sRF8H9uzZY2fPnjUzs0qVKtmtW7fs008/tbCwMGeekJAQGzhwoC1evNjMIn/boq8PwN0kTJjQPvvsM2vYsKGdP3/eQkND7YMPPrAPP/zQQkNDbcCAATZ37lzbt2+f7dmzxxImTGibNm2yoKAgb5cOxElRxybr16+3AwcO2GeffWZBQUGWKVMma9q0qRUqVMj27Nljf/zxh61cudIaN25sf/75p02cONHZdntL1N/29fW1mzdv2saNG61Tp042duxYMzNLmjSpjRgxwtq0aWPPPfecffPNN85rK1eubFmyZPFK3fFdy5YtrUKFCrZz506rWbOmPfHEE85zKVKksP/7v/+zQYMG2axZs6xDhw4xXh91XIuYbt8Punbtmn300UfWtGlTO378uK1evdp8fX0tIiIifu/nejEIe+y9/fbbCgoKUrZs2TR06NB/vKwu+hmHyZMna8SIEZ4oMd5hJAfEBb169XL6IEuXLp2eeeYZrVq16o7zRl+3x4wZo4oVK+rcuXOeKjXOutMZoXPnzunIkSM6d+6cypYtq2HDhkmK7PMtV65ccrlc6tWrl6dLxf8X/Tvr16+fihUr5vRncPHiRVWtWlVPP/20/ve//+n06dP66aefVKdOHZUuXZqzo7hvP/74o1KlSqUZM2bo7NmzkiL7zChYsKAGDBjgbEej+pSLz2eOAU9Zvny5ChUqpAwZMmjjxo3O9PPnz2vUqFEqUqSIEidOrGLFirkNI+/tbXjUvlTUwCZnzpzR4MGDlTx5crcRXK9cuaIuXbrI5XJp+fLl3ig13otq66jvftCgQRo0aJAyZ86sLl266ODBg27znT9/Xu+++66qV68eZ66gi4/Cw8P10UcfadiwYY/Ulf+EUR4UfUd99uzZSpcunebOnatOnTqpZMmSatasmdt9zlGir7iTJk1SQECAFi5c6JGa4xNGckBcMGXKFKVLl865FWTOnDlyuVx3DKNuX7dTpEihuXPneqrUOCv6tvLgwYP6448/nPvkpch75fPly+fsSJ49e1bdu3fXzp07H4kf5viub9++Sp8+vZYuXeoWrJ4/f16vvPKK8uXLJ19fXxUpUkRlypSJMwcziF++++47ZcqUybk9N0r79u2VLFkyvfPOOzpx4oQznd954N8dOXJEHTp0UPLkydW5c2e3527evKlbt25p+/btOnHihLNOeft3N6qOpUuXqnnz5tq+fbukyAEL3nnnnRiB1OXLl9WzZ89417dOXBB9/+zixYtuz02dOlUZM2ZU165d3bbLUZ3DM0ru3+7WBv82PXr7e3u9e1gIo7zg+++/1+uvv65PPvnEmfbxxx+rfPnyeumll/Tjjz8606MvdJMmTVJgYGC86yXfExjJAXFFjx49nKtzPv30UwUGBjqdfV69etUZSvz2dZuQOVL0H+IBAwaocOHCypcvnzJkyKDp06crJCREx44dU0BAgDp06KAvvvhCNWvWVNmyZePMjvHj7Oeff1aePHn0zTffSIrcWd2/f78mTZrk7JCePn1aixcv1tatW531gO8M9ypqPV+9erWyZMninMSL2rbeuHFDGTNmVJYsWTRkyBB+24F7FLVunTp1Sp07d1bRokXd7sSI2k5H/52OK+vXwoULlTx5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BXx9fXH//n04Ozvj4sWLGDhwIBYsWKDn1hMRvVuYgIKIiIiIiAq0nIGoQ4cOYc+ePWjatCkURUHFihXx6NEj3L9/H40aNQKQVfHU0dERv/zyC4KDg/XZdCKidxLHjxIRERERUYGWHYjatGkTtm3bBldXVzRp0kSdtleiRAk8efIECxYswO+//4558+bh2bNnsLW1hUajQWZmJgwMDPT8LoiI3h0cGUVERERERAWSVqtV/52YmIiQkBBs27YNCQkJALIq6qWnp8PMzAxr1qzBsWPHMGHCBKSnp+PAgQPQaDTQarUMRBERvSHmjCIiIiIiogLn7t27sLa2BgDMnz8fHTt2xN27dzF58mScOHECwcHB6NSpk84+qampePToESpWrAhFUZisnIjoH2IwioiIiIiICpTo6Gg0aNAAR44cwYYNGxAWFoaTJ0/igw8+wMmTJxEQEICkpCSMHDkS7dq1A5C7St7LlfeIiOj1MRhFREREREQFjqenJ8LCwgAAx44dg729vbru2LFjmDVrlhqQatu2rb6aSUT0XmIon4iIiIiICpzKlSsjNTUVWq0Wjx490lnn6OiI0aNHo0SJEvDx8cHRo0f11EoiovcTR0YREREREVGB8/z5c9y+fRvfffcdVq5cifDwcLi4uOhMv4uJicHGjRsxdepUJiknInqLGIwiIiIiIqICJWf+JxGBh4cH1q9fj02bNqF58+YAAB8fHwwZMgTlypUDAGRmZjIgRUT0ljAYRUREREREBZ6HhwdWrVqFcePGYf/+/UhISMC5c+cYgCIi+h9gHVIiIiIiIirwFi9ejJIlS+LQoUMoW7Ys9u3bBwMDA46IIiL6H+DIKCIiIiIiov+XlJQES0tLALrT+YiI6O1hMIqIiIiIiN4rIgJFUV57+avW5UxkTkREbxevrkRERERE9N7QarVqUCk+Ph7Xrl1T1ymKgszMzL89RkpKCgNRRET/Q7zCEhERERHRe0FE1CCSr68vWrdujWrVqqFp06aYMmUKRAQGBgbQarW59ssOYIWGhsLd3R1PnjzJ8/YTERUUnABNRERERETvtOxgUnZAKSAgAAsWLEBISAjMzc0RERGB7du34969e5g3b57OqKecgahFixZh1KhRCAsLg6mpqV7eCxFRQcCRUURERERE9M66c+eOGkwSESQmJmLPnj0ICAhAly5d0LJlS8ya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" alt="Model Capabilities Chart">
+            </div>
+
+            <h2>Full Model Data Table</h2>
+            <table border="1" class="dataframe data">
+  <thead>
+    <tr style="text-align: right;">
+      <th>id</th>
+      <th>object</th>
+      <th>owned_by</th>
+      <th>name</th>
+      <th>description</th>
+      <th>max_context_length</th>
+      <th>aliases</th>
+      <th>deprecation</th>
+      <th>deprecation_replacement_model</th>
+      <th>default_model_temperature</th>
+      <th>type</th>
+      <th>completion_chat</th>
+      <th>function_calling</th>
+      <th>reasoning</th>
+      <th>completion_fim</th>
+      <th>fine_tuning</th>
+      <th>vision</th>
+      <th>ocr</th>
+      <th>classification</th>
+      <th>moderation</th>
+      <th>audio</th>
+      <th>audio_transcription</th>
+      <th>audio_transcription_realtime</th>
+      <th>audio_speech</th>
+      <th>group</th>
+      <th>capability_score</th>
+      <th>group_rank</th>
+      <th>group_order</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>voxtral-mini-transcribe-realtime-2602</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>voxtral-mini-transcribe-realtime-2602</td>
+      <td>A realtime transcription model released in January 2026</td>
+      <td>32768</td>
+      <td>[voxtral-mini-realtime-2602, voxtral-mini-realtime-latest]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.0</td>
+      <td>base</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>Transcription</td>
+      <td>1.8</td>
+      <td>1.0</td>
+      <td>Transcription</td>
+    </tr>
+    <tr>
+      <td>voxtral-mini-realtime-2602</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>voxtral-mini-transcribe-realtime-2602</td>
+      <td>A realtime transcription model released in January 2026</td>
+      <td>32768</td>
+      <td>[voxtral-mini-transcribe-realtime-2602, voxtral-mini-realtime-latest]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.0</td>
+      <td>base</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>Transcription</td>
+      <td>1.8</td>
+      <td>1.0</td>
+      <td>Transcription</td>
+    </tr>
+    <tr>
+      <td>voxtral-mini-realtime-latest</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>voxtral-mini-transcribe-realtime-2602</td>
+      <td>A realtime transcription model released in January 2026</td>
+      <td>32768</td>
+      <td>[voxtral-mini-transcribe-realtime-2602, voxtral-mini-realtime-2602]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.0</td>
+      <td>base</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>Transcription</td>
+      <td>1.8</td>
+      <td>1.0</td>
+      <td>Transcription</td>
+    </tr>
+    <tr>
+      <td>voxtral-mini-2602</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>voxtral-mini-2602</td>
+      <td>Official voxtral-mini-2602 Mistral AI model</td>
+      <td>16384</td>
+      <td>[]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.0</td>
+      <td>base</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Transcription</td>
+      <td>1.5</td>
+      <td>2.0</td>
+      <td>Transcription</td>
+    </tr>
+    <tr>
+      <td>voxtral-mini-latest</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>voxtral-mini-2602</td>
+      <td>Official voxtral-mini-2602 Mistral AI model</td>
+      <td>16384</td>
+      <td>[]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.0</td>
+      <td>base</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Transcription</td>
+      <td>1.5</td>
+      <td>2.0</td>
+      <td>Transcription</td>
+    </tr>
+    <tr>
+      <td>voxtral-mini-transcribe-2507</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>voxtral-mini-transcribe-2507</td>
+      <td>A mini transcription model released in July 2025</td>
+      <td>16384</td>
+      <td>[voxtral-mini-2507]</td>
+      <td>2026-05-31T12:00:00+00:00</td>
+      <td>voxtral-mini-latest</td>
+      <td>0.0</td>
+      <td>base</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Transcription</td>
+      <td>1.5</td>
+      <td>2.0</td>
+      <td>Transcription</td>
+    </tr>
+    <tr>
+      <td>voxtral-mini-2507</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>voxtral-mini-transcribe-2507</td>
+      <td>A mini transcription model released in July 2025</td>
+      <td>16384</td>
+      <td>[voxtral-mini-transcribe-2507]</td>
+      <td>2026-05-31T12:00:00+00:00</td>
+      <td>voxtral-mini-latest</td>
+      <td>0.0</td>
+      <td>base</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Transcription</td>
+      <td>1.5</td>
+      <td>2.0</td>
+      <td>Transcription</td>
+    </tr>
+    <tr>
+      <td>voxtral-mini-tts-2603</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>voxtral-mini-tts-2603</td>
+      <td>TTS v1 final checkpoint</td>
+      <td>4096</td>
+      <td>[voxtral-mini-tts-latest]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.3</td>
+      <td>base</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>Speech</td>
+      <td>4.5</td>
+      <td>1.0</td>
+      <td>Speech</td>
+    </tr>
+    <tr>
+      <td>voxtral-mini-tts-latest</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>voxtral-mini-tts-2603</td>
+      <td>TTS v1 final checkpoint</td>
+      <td>4096</td>
+      <td>[voxtral-mini-tts-2603]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.3</td>
+      <td>base</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>Speech</td>
+      <td>4.5</td>
+      <td>1.0</td>
+      <td>Speech</td>
+    </tr>
+    <tr>
+      <td>voxtral-small-2507</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>voxtral-small-2507</td>
+      <td>A small audio understanding model released in July 2025</td>
+      <td>32768</td>
+      <td>[voxtral-small-latest]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.2</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Audio Understanding</td>
+      <td>3.7</td>
+      <td>1.0</td>
+      <td>Audio Understanding</td>
+    </tr>
+    <tr>
+      <td>voxtral-small-latest</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>voxtral-small-2507</td>
+      <td>A small audio understanding model released in July 2025</td>
+      <td>32768</td>
+      <td>[voxtral-small-2507]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.2</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Audio Understanding</td>
+      <td>3.7</td>
+      <td>1.0</td>
+      <td>Audio Understanding</td>
+    </tr>
+    <tr>
+      <td>voxtral-mini-2507</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>voxtral-mini-2507</td>
+      <td>A mini audio understanding model released in July 2025</td>
+      <td>32768</td>
+      <td>[voxtral-mini-latest]</td>
+      <td>2026-05-31T12:00:00+00:00</td>
+      <td>voxtral-mini-latest</td>
+      <td>0.2</td>
+      <td>base</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Audio Understanding</td>
+      <td>2.2</td>
+      <td>2.0</td>
+      <td>Audio Understanding</td>
+    </tr>
+    <tr>
+      <td>voxtral-mini-latest</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>voxtral-mini-2507</td>
+      <td>A mini audio understanding model released in July 2025</td>
+      <td>32768</td>
+      <td>[voxtral-mini-2507]</td>
+      <td>2026-05-31T12:00:00+00:00</td>
+      <td>voxtral-mini-latest</td>
+      <td>0.2</td>
+      <td>base</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Audio Understanding</td>
+      <td>2.2</td>
+      <td>2.0</td>
+      <td>Audio Understanding</td>
+    </tr>
+    <tr>
+      <td>magistral-medium-2509</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>magistral-medium-2509</td>
+      <td>Our frontier-class reasoning model release candidate September 2025.</td>
+      <td>131072</td>
+      <td>[magistral-medium-latest]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.7</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Vision</td>
+      <td>7.5</td>
+      <td>1.0</td>
+      <td>Vision</td>
+    </tr>
+    <tr>
+      <td>magistral-medium-latest</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>magistral-medium-2509</td>
+      <td>Our frontier-class reasoning model release candidate September 2025.</td>
+      <td>131072</td>
+      <td>[magistral-medium-2509]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.7</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Vision</td>
+      <td>7.5</td>
+      <td>1.0</td>
+      <td>Vision</td>
+    </tr>
+    <tr>
+      <td>magistral-small-2509</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>magistral-small-2509</td>
+      <td>Our efficient reasoning model released September 2025.</td>
+      <td>131072</td>
+      <td>[]</td>
+      <td>2026-07-31T12:00:00+00:00</td>
+      <td>mistral-small-latest</td>
+      <td>0.7</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Vision</td>
+      <td>7.5</td>
+      <td>1.0</td>
+      <td>Vision</td>
+    </tr>
+    <tr>
+      <td>mistral-small-2603</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>mistral-small-2603</td>
+      <td>Mistral Small 4.</td>
+      <td>262144</td>
+      <td>[mistral-small-latest, mistral-vibe-cli-fast, magistral-small-latest]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.3</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Vision</td>
+      <td>6.0</td>
+      <td>2.0</td>
+      <td>Vision</td>
+    </tr>
+    <tr>
+      <td>mistral-small-latest</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>mistral-small-2603</td>
+      <td>Mistral Small 4.</td>
+      <td>262144</td>
+      <td>[mistral-small-2603, mistral-vibe-cli-fast, magistral-small-latest]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.3</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Vision</td>
+      <td>6.0</td>
+      <td>2.0</td>
+      <td>Vision</td>
+    </tr>
+    <tr>
+      <td>mistral-vibe-cli-fast</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>mistral-small-2603</td>
+      <td>Mistral Small 4.</td>
+      <td>262144</td>
+      <td>[mistral-small-2603, mistral-small-latest, magistral-small-latest]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.3</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Vision</td>
+      <td>6.0</td>
+      <td>2.0</td>
+      <td>Vision</td>
+    </tr>
+    <tr>
+      <td>magistral-small-latest</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>mistral-small-2603</td>
+      <td>Mistral Small 4.</td>
+      <td>262144</td>
+      <td>[mistral-small-2603, mistral-small-latest, mistral-vibe-cli-fast]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.3</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Vision</td>
+      <td>6.0</td>
+      <td>2.0</td>
+      <td>Vision</td>
+    </tr>
+    <tr>
+      <td>mistral-medium-3-5</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>mistral-medium-3-5</td>
+      <td>Official mistral-medium-3-5 Mistral AI model</td>
+      <td>262144</td>
+      <td>[]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1.0</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Vision</td>
+      <td>6.0</td>
+      <td>2.0</td>
+      <td>Vision</td>
+    </tr>
+    <tr>
+      <td>mistral-medium-3.5</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>mistral-medium-3-5</td>
+      <td>Official mistral-medium-3-5 Mistral AI model</td>
+      <td>262144</td>
+      <td>[]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1.0</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Vision</td>
+      <td>6.0</td>
+      <td>2.0</td>
+      <td>Vision</td>
+    </tr>
+    <tr>
+      <td>mistral-medium-3</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>mistral-medium-3-5</td>
+      <td>Official mistral-medium-3-5 Mistral AI model</td>
+      <td>262144</td>
+      <td>[]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1.0</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Vision</td>
+      <td>6.0</td>
+      <td>2.0</td>
+      <td>Vision</td>
+    </tr>
+    <tr>
+      <td>mistral-medium-2604</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>mistral-medium-3-5</td>
+      <td>Official mistral-medium-3-5 Mistral AI model</td>
+      <td>262144</td>
+      <td>[]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1.0</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Vision</td>
+      <td>6.0</td>
+      <td>2.0</td>
+      <td>Vision</td>
+    </tr>
+    <tr>
+      <td>mistral-medium-c21211-r0-75</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>mistral-medium-3-5</td>
+      <td>Official mistral-medium-3-5 Mistral AI model</td>
+      <td>262144</td>
+      <td>[]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1.0</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Vision</td>
+      <td>6.0</td>
+      <td>2.0</td>
+      <td>Vision</td>
+    </tr>
+    <tr>
+      <td>mistral-vibe-cli-latest</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>mistral-medium-3-5</td>
+      <td>Official mistral-medium-3-5 Mistral AI model</td>
+      <td>262144</td>
+      <td>[]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1.0</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Vision</td>
+      <td>6.0</td>
+      <td>2.0</td>
+      <td>Vision</td>
+    </tr>
+    <tr>
+      <td>mistral-medium-2505</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>mistral-medium-2505</td>
+      <td>Our frontier-class multimodal model released May 2025.</td>
+      <td>131072</td>
+      <td>[]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.3</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Vision</td>
+      <td>5.5</td>
+      <td>3.0</td>
+      <td>Vision</td>
+    </tr>
+    <tr>
+      <td>mistral-medium-2508</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>mistral-medium-2508</td>
+      <td>Update on Mistral Medium 3 with improved capabilities.</td>
+      <td>131072</td>
+      <td>[mistral-medium-latest, mistral-medium, mistral-vibe-cli-with-tools]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.3</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Vision</td>
+      <td>5.5</td>
+      <td>3.0</td>
+      <td>Vision</td>
+    </tr>
+    <tr>
+      <td>mistral-medium-latest</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>mistral-medium-2508</td>
+      <td>Update on Mistral Medium 3 with improved capabilities.</td>
+      <td>131072</td>
+      <td>[mistral-medium-2508, mistral-medium, mistral-vibe-cli-with-tools]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.3</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Vision</td>
+      <td>5.5</td>
+      <td>3.0</td>
+      <td>Vision</td>
+    </tr>
+    <tr>
+      <td>mistral-medium</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>mistral-medium-2508</td>
+      <td>Update on Mistral Medium 3 with improved capabilities.</td>
+      <td>131072</td>
+      <td>[mistral-medium-2508, mistral-medium-latest, mistral-vibe-cli-with-tools]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.3</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Vision</td>
+      <td>5.5</td>
+      <td>3.0</td>
+      <td>Vision</td>
+    </tr>
+    <tr>
+      <td>mistral-vibe-cli-with-tools</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>mistral-medium-2508</td>
+      <td>Update on Mistral Medium 3 with improved capabilities.</td>
+      <td>131072</td>
+      <td>[mistral-medium-2508, mistral-medium-latest, mistral-medium]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.3</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Vision</td>
+      <td>5.5</td>
+      <td>3.0</td>
+      <td>Vision</td>
+    </tr>
+    <tr>
+      <td>mistral-large-2512</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>mistral-large-2512</td>
+      <td>Official mistral-large-2512 Mistral AI model</td>
+      <td>262144</td>
+      <td>[]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.3</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Vision</td>
+      <td>5.5</td>
+      <td>3.0</td>
+      <td>Vision</td>
+    </tr>
+    <tr>
+      <td>mistral-large-latest</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>mistral-large-2512</td>
+      <td>Official mistral-large-2512 Mistral AI model</td>
+      <td>262144</td>
+      <td>[]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.3</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Vision</td>
+      <td>5.5</td>
+      <td>3.0</td>
+      <td>Vision</td>
+    </tr>
+    <tr>
+      <td>mistral-large-2512</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>mistral-large-2512</td>
+      <td>Official mistral-large-2512 Mistral AI model</td>
+      <td>262144</td>
+      <td>[]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.3</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Vision</td>
+      <td>5.5</td>
+      <td>3.0</td>
+      <td>Vision</td>
+    </tr>
+    <tr>
+      <td>mistral-large-latest</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>mistral-large-2512</td>
+      <td>Official mistral-large-2512 Mistral AI model</td>
+      <td>262144</td>
+      <td>[]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.3</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Vision</td>
+      <td>5.5</td>
+      <td>3.0</td>
+      <td>Vision</td>
+    </tr>
+    <tr>
+      <td>ministral-3b-2512</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>ministral-3b-2512</td>
+      <td>Ministral 3 (a.k.a. Tinystral) 3B Instruct.</td>
+      <td>131072</td>
+      <td>[ministral-3b-latest]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.3</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Vision</td>
+      <td>5.5</td>
+      <td>3.0</td>
+      <td>Vision</td>
+    </tr>
+    <tr>
+      <td>ministral-3b-latest</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>ministral-3b-2512</td>
+      <td>Ministral 3 (a.k.a. Tinystral) 3B Instruct.</td>
+      <td>131072</td>
+      <td>[ministral-3b-2512]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.3</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Vision</td>
+      <td>5.5</td>
+      <td>3.0</td>
+      <td>Vision</td>
+    </tr>
+    <tr>
+      <td>ministral-8b-2512</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>ministral-8b-2512</td>
+      <td>Ministral 3 (a.k.a. Tinystral) 8B Instruct.</td>
+      <td>262144</td>
+      <td>[ministral-8b-latest]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.3</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Vision</td>
+      <td>5.5</td>
+      <td>3.0</td>
+      <td>Vision</td>
+    </tr>
+    <tr>
+      <td>ministral-8b-latest</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>ministral-8b-2512</td>
+      <td>Ministral 3 (a.k.a. Tinystral) 8B Instruct.</td>
+      <td>262144</td>
+      <td>[ministral-8b-2512]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.3</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Vision</td>
+      <td>5.5</td>
+      <td>3.0</td>
+      <td>Vision</td>
+    </tr>
+    <tr>
+      <td>ministral-14b-2512</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>ministral-14b-2512</td>
+      <td>Ministral 3 (a.k.a. Tinystral) 14B Instruct.</td>
+      <td>262144</td>
+      <td>[ministral-14b-latest]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.3</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Vision</td>
+      <td>5.5</td>
+      <td>3.0</td>
+      <td>Vision</td>
+    </tr>
+    <tr>
+      <td>ministral-14b-latest</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>ministral-14b-2512</td>
+      <td>Ministral 3 (a.k.a. Tinystral) 14B Instruct.</td>
+      <td>262144</td>
+      <td>[ministral-14b-2512]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.3</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Vision</td>
+      <td>5.5</td>
+      <td>3.0</td>
+      <td>Vision</td>
+    </tr>
+    <tr>
+      <td>mistral-ocr-2512</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>mistral-ocr-2512</td>
+      <td>Official mistral-ocr-2512 Mistral AI model</td>
+      <td>16384</td>
+      <td>[mistral-ocr-latest]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.0</td>
+      <td>base</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Vision</td>
+      <td>4.2</td>
+      <td>4.0</td>
+      <td>Vision</td>
+    </tr>
+    <tr>
+      <td>mistral-ocr-latest</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>mistral-ocr-2512</td>
+      <td>Official mistral-ocr-2512 Mistral AI model</td>
+      <td>16384</td>
+      <td>[mistral-ocr-2512]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.0</td>
+      <td>base</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Vision</td>
+      <td>4.2</td>
+      <td>4.0</td>
+      <td>Vision</td>
+    </tr>
+    <tr>
+      <td>mistral-ocr-2505</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>mistral-ocr-2505</td>
+      <td>Official mistral-ocr-2505 Mistral AI model</td>
+      <td>16384</td>
+      <td>[]</td>
+      <td>2026-05-31T12:00:00+00:00</td>
+      <td>mistral-ocr-latest</td>
+      <td>0.0</td>
+      <td>base</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Vision</td>
+      <td>4.2</td>
+      <td>4.0</td>
+      <td>Vision</td>
+    </tr>
+    <tr>
+      <td>pixtral-large-2411</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>pixtral-large-2411</td>
+      <td>Official pixtral-large-2411 Mistral AI model</td>
+      <td>131072</td>
+      <td>[pixtral-large-latest, mistral-large-pixtral-2411]</td>
+      <td>2026-05-31T12:00:00+00:00</td>
+      <td>mistral-large-latest</td>
+      <td>0.7</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Vision</td>
+      <td>4.0</td>
+      <td>5.0</td>
+      <td>Vision</td>
+    </tr>
+    <tr>
+      <td>pixtral-large-latest</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>pixtral-large-2411</td>
+      <td>Official pixtral-large-2411 Mistral AI model</td>
+      <td>131072</td>
+      <td>[pixtral-large-2411, mistral-large-pixtral-2411]</td>
+      <td>2026-05-31T12:00:00+00:00</td>
+      <td>mistral-large-latest</td>
+      <td>0.7</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Vision</td>
+      <td>4.0</td>
+      <td>5.0</td>
+      <td>Vision</td>
+    </tr>
+    <tr>
+      <td>mistral-large-pixtral-2411</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>pixtral-large-2411</td>
+      <td>Official pixtral-large-2411 Mistral AI model</td>
+      <td>131072</td>
+      <td>[pixtral-large-2411, pixtral-large-latest]</td>
+      <td>2026-05-31T12:00:00+00:00</td>
+      <td>mistral-large-latest</td>
+      <td>0.7</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Vision</td>
+      <td>4.0</td>
+      <td>5.0</td>
+      <td>Vision</td>
+    </tr>
+    <tr>
+      <td>mistral-small-2506</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>mistral-small-2506</td>
+      <td>Our latest enterprise-grade small model with the latest version released June 2025.</td>
+      <td>131072</td>
+      <td>[]</td>
+      <td>2026-07-31T12:00:00+00:00</td>
+      <td>mistral-small-latest</td>
+      <td>0.3</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Vision</td>
+      <td>4.0</td>
+      <td>5.0</td>
+      <td>Vision</td>
+    </tr>
+    <tr>
+      <td>open-mistral-nemo</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>open-mistral-nemo</td>
+      <td>Our best multilingual open source model released July 2024.</td>
+      <td>131072</td>
+      <td>[open-mistral-nemo-2407, mistral-tiny-2407, mistral-tiny-latest]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.3</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Chat</td>
+      <td>4.0</td>
+      <td>1.0</td>
+      <td>Chat</td>
+    </tr>
+    <tr>
+      <td>open-mistral-nemo-2407</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>open-mistral-nemo</td>
+      <td>Our best multilingual open source model released July 2024.</td>
+      <td>131072</td>
+      <td>[open-mistral-nemo, mistral-tiny-2407, mistral-tiny-latest]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.3</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Chat</td>
+      <td>4.0</td>
+      <td>1.0</td>
+      <td>Chat</td>
+    </tr>
+    <tr>
+      <td>mistral-tiny-2407</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>open-mistral-nemo</td>
+      <td>Our best multilingual open source model released July 2024.</td>
+      <td>131072</td>
+      <td>[open-mistral-nemo, open-mistral-nemo-2407, mistral-tiny-latest]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.3</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Chat</td>
+      <td>4.0</td>
+      <td>1.0</td>
+      <td>Chat</td>
+    </tr>
+    <tr>
+      <td>mistral-tiny-latest</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>open-mistral-nemo</td>
+      <td>Our best multilingual open source model released July 2024.</td>
+      <td>131072</td>
+      <td>[open-mistral-nemo, open-mistral-nemo-2407, mistral-tiny-2407]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.3</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Chat</td>
+      <td>4.0</td>
+      <td>1.0</td>
+      <td>Chat</td>
+    </tr>
+    <tr>
+      <td>mistral-large-2411</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>mistral-large-2411</td>
+      <td>Our top-tier reasoning model for high-complexity tasks with the lastest version released November 2024.</td>
+      <td>131072</td>
+      <td>[]</td>
+      <td>2026-05-31T12:00:00+00:00</td>
+      <td>mistral-large-latest</td>
+      <td>0.7</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Chat</td>
+      <td>4.0</td>
+      <td>1.0</td>
+      <td>Chat</td>
+    </tr>
+    <tr>
+      <td>codestral-2508</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>codestral-2508</td>
+      <td>Our cutting-edge language model for coding released August 2025.</td>
+      <td>256000</td>
+      <td>[codestral-latest]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.3</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Chat</td>
+      <td>3.7</td>
+      <td>2.0</td>
+      <td>Chat</td>
+    </tr>
+    <tr>
+      <td>codestral-latest</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>codestral-2508</td>
+      <td>Our cutting-edge language model for coding released August 2025.</td>
+      <td>256000</td>
+      <td>[codestral-2508]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.3</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Chat</td>
+      <td>3.7</td>
+      <td>2.0</td>
+      <td>Chat</td>
+    </tr>
+    <tr>
+      <td>devstral-2512</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>devstral-2512</td>
+      <td>Official devstral-2512 Mistral AI model</td>
+      <td>262144</td>
+      <td>[]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.2</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Chat</td>
+      <td>2.5</td>
+      <td>3.0</td>
+      <td>Chat</td>
+    </tr>
+    <tr>
+      <td>devstral-medium-latest</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>devstral-2512</td>
+      <td>Official devstral-2512 Mistral AI model</td>
+      <td>262144</td>
+      <td>[]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.2</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Chat</td>
+      <td>2.5</td>
+      <td>3.0</td>
+      <td>Chat</td>
+    </tr>
+    <tr>
+      <td>devstral-latest</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>devstral-2512</td>
+      <td>Official devstral-2512 Mistral AI model</td>
+      <td>262144</td>
+      <td>[]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.2</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Chat</td>
+      <td>2.5</td>
+      <td>3.0</td>
+      <td>Chat</td>
+    </tr>
+    <tr>
+      <td>devstral-small-2507</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>devstral-small-2507</td>
+      <td>Our small open-source code-agentic model.</td>
+      <td>131072</td>
+      <td>[]</td>
+      <td>2026-05-31T12:00:00+00:00</td>
+      <td>devstral-latest</td>
+      <td>0.0</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Chat</td>
+      <td>2.5</td>
+      <td>3.0</td>
+      <td>Chat</td>
+    </tr>
+    <tr>
+      <td>devstral-medium-2507</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>devstral-medium-2507</td>
+      <td>Our medium code-agentic model.</td>
+      <td>131072</td>
+      <td>[]</td>
+      <td>2026-05-31T12:00:00+00:00</td>
+      <td>devstral-latest</td>
+      <td>0.0</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Chat</td>
+      <td>2.5</td>
+      <td>3.0</td>
+      <td>Chat</td>
+    </tr>
+    <tr>
+      <td>mistral-moderation-2603</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>mistral-moderation-2603</td>
+      <td>Official mistral-moderation-2603 Mistral AI model</td>
+      <td>131072</td>
+      <td>[]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>base</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Classification</td>
+      <td>2.0</td>
+      <td>1.0</td>
+      <td>Classification</td>
+    </tr>
+    <tr>
+      <td>mistral-moderation-2411</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>mistral-moderation-2411</td>
+      <td>Official mistral-moderation-2411 Mistral AI model</td>
+      <td>8192</td>
+      <td>[mistral-moderation-latest]</td>
+      <td>2026-06-30T12:00:00+00:00</td>
+      <td>mistral-moderation-2603</td>
+      <td>NaN</td>
+      <td>base</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Classification</td>
+      <td>2.0</td>
+      <td>1.0</td>
+      <td>Classification</td>
+    </tr>
+    <tr>
+      <td>mistral-moderation-latest</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>mistral-moderation-2411</td>
+      <td>Official mistral-moderation-2411 Mistral AI model</td>
+      <td>8192</td>
+      <td>[mistral-moderation-2411]</td>
+      <td>2026-06-30T12:00:00+00:00</td>
+      <td>mistral-moderation-2603</td>
+      <td>NaN</td>
+      <td>base</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Classification</td>
+      <td>2.0</td>
+      <td>1.0</td>
+      <td>Classification</td>
+    </tr>
+    <tr>
+      <td>labs-leanstral-2603</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>labs-leanstral-2603</td>
+      <td>A mid &amp; post-trained version of mistral small 4 for Lean</td>
+      <td>196608</td>
+      <td>[]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1.0</td>
+      <td>base</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Other</td>
+      <td>6.0</td>
+      <td>1.0</td>
+      <td>Other</td>
+    </tr>
+    <tr>
+      <td>mistral-embed-2312</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>mistral-embed-2312</td>
+      <td>Official mistral-embed-2312 Mistral AI model</td>
+      <td>8192</td>
+      <td>[mistral-embed]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>base</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Other</td>
+      <td>0.0</td>
+      <td>2.0</td>
+      <td>Other</td>
+    </tr>
+    <tr>
+      <td>mistral-embed</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>mistral-embed-2312</td>
+      <td>Official mistral-embed-2312 Mistral AI model</td>
+      <td>8192</td>
+      <td>[mistral-embed-2312]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>base</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Other</td>
+      <td>0.0</td>
+      <td>2.0</td>
+      <td>Other</td>
+    </tr>
+    <tr>
+      <td>codestral-embed</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>codestral-embed</td>
+      <td>Official codestral-embed Mistral AI model</td>
+      <td>8192</td>
+      <td>[codestral-embed-2505]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>base</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Other</td>
+      <td>0.0</td>
+      <td>2.0</td>
+      <td>Other</td>
+    </tr>
+    <tr>
+      <td>codestral-embed-2505</td>
+      <td>model</td>
+      <td>mistralai</td>
+      <td>codestral-embed</td>
+      <td>Official codestral-embed Mistral AI model</td>
+      <td>8192</td>
+      <td>[codestral-embed]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>base</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Other</td>
+      <td>0.0</td>
+      <td>2.0</td>
+      <td>Other</td>
+    </tr>
+  </tbody>
+</table>
+        </div>
+    </body>
+    </html>
+    
