@@ -2,6 +2,7 @@
 title = "The Road Not Taken: Walter Pitts, IBM, and the 3D Revolution"
 date = 2026-09-30
 draft = false
+[taxonomies]
 tags = ["walter-pitts", "ibm", "cybernetics", "ai-history", "nanostack", "3d-integration", "analog-computing", "speculative-reverse-engineering", "norbert-wiener", "semiconductor", "DeepSeek"]
 +++
 
